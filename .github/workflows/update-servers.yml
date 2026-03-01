@@ -1,0 +1,34 @@
+name: TRUVA Server Scraper (Saatlik)
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # Her saat başı tetiklenir
+  workflow_dispatch:       # Manuel çalıştırma butonu
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu Klonla (Checkout)
+        uses: actions/checkout@v3
+
+      - name: Python Ortamını Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install -r requirements.txt
+
+      - name: Botu Çalıştır (Verileri Topla)
+        run: python main.py
+
+      - name: GitHub Pages'a Yükle (API Yayını)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          commit_message: "otomatik sunucu güncellemesi"
