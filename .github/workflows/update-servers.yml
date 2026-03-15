@@ -23,12 +23,18 @@ jobs:
       - name: Kütüphaneleri Yükle
         run: pip install -r requirements.txt
 
-      - name: Botu Çalıştır (Verileri Topla)
-        run: python main.py
+      - name: Xray Core İndir (Linux)
+        run: |
+          wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+          unzip Xray-linux-64.zip -d .
+          chmod +x xray
+
+      - name: Botu Çalıştır (Havuz Yönetimi)
+        run: python manager.py
 
       - name: GitHub Pages'a Yükle (API Yayını)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
-          commit_message: "otomatik sunucu güncellemesi"
+          commit_message: "otomatik havuz güncellemesi (UDP Testli)"
