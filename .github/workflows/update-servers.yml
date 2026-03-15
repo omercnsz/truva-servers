@@ -26,7 +26,7 @@ jobs:
       - name: Xray Core İndir (Linux)
         run: |
           wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
-          unzip Xray-linux-64.zip -d .
+          unzip -o Xray-linux-64.zip -d .
           chmod +x xray
 
       - name: Botu Çalıştır (Havuz Yönetimi)
