@@ -23,11 +23,13 @@ jobs:
       - name: Kütüphaneleri Yükle
         run: pip install -r requirements.txt
 
-      - name: Xray Core İndir (Linux)
+      - name: Xray Core İndir ve Kur (Linux)
         run: |
           wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
-          unzip -o Xray-linux-64.zip -d .
-          chmod +x xray
+          unzip -o Xray-linux-64.zip -d xray_core
+          mv xray_core/xray ./xray
+          chmod +x ./xray
+          rm -rf xray_core Xray-linux-64.zip
 
       - name: Botu Çalıştır (Havuz Yönetimi)
         run: python manager.py
