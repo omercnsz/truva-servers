@@ -1,10 +1,10 @@
 {
   "metadata": {
     "total": 20,
-    "reality_count": 20,
-    "vless_tls_count": 0,
+    "reality_count": 19,
+    "vless_tls_count": 1,
     "vless_other_count": 0,
-    "last_check": 1773661731.4506996
+    "last_check": 1773663503.3482497
   },
   "servers": {
     "reality": [
@@ -308,29 +308,6 @@
         "udp_supported": true
       },
       {
-        "id": "c720180ed34b",
-        "protocol": "vless",
-        "address": "dns.dressforida.monster",
-        "port": 443,
-        "uuid": "79149019-5abe-46f9-91ae-e1e7d1d2c408",
-        "remark": "🌐 TCP-Reality | @Express_alaki | src @Trick_mobil",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.techradar.com",
-        "fingerprint": "chrome",
-        "publicKey": "4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8",
-        "shortId": "174c6cf22e22",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://79149019-5abe-46f9-91ae-e1e7d1d2c408@dns.dressforida.monster:443?type=tcp&security=reality&sni=www.techradar.com&fp=chrome&flow=xtls-rprx-vision&pbk=4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8&sid=174c6cf22e22#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
-        "udp_supported": true
-      },
-      {
         "id": "1cf26aff30f2",
         "protocol": "vless",
         "address": "142.111.162.39",
@@ -469,7 +446,31 @@
         "udp_supported": true
       }
     ],
-    "vless_tls": [],
+    "vless_tls": [
+      {
+        "id": "f397a23f0547",
+        "protocol": "vless",
+        "address": "162.159.36.20",
+        "port": 2053,
+        "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
+        "remark": "🛡 V 105 @Outline_Vpn",
+        "network": "ws",
+        "security": "tls",
+        "sni": "ir1.airpanel.top",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "ir1.airpanel.top",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@162.159.36.20:2053?path=%2F&security=tls&encryption=none&insecure=1&host=ir1.airpanel.top&type=ws&allowInsecure=1&sni=ir1.airpanel.top#%F0%9F%9B%A1%20V%20105%20%40Outline_Vpn",
+        "udp_supported": true
+      }
+    ],
     "vless_other": []
   }
 }
