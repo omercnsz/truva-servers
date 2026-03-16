@@ -1,10 +1,10 @@
 {
   "metadata": {
     "total": 20,
-    "reality_count": 19,
-    "vless_tls_count": 0,
+    "reality_count": 18,
+    "vless_tls_count": 1,
     "vless_other_count": 1,
-    "last_check": 1773672867.1957827
+    "last_check": 1773675039.97933
   },
   "servers": {
     "reality": [
@@ -308,29 +308,6 @@
         "udp_supported": true
       },
       {
-        "id": "1cf26aff30f2",
-        "protocol": "vless",
-        "address": "142.111.162.39",
-        "port": 443,
-        "uuid": "9a6f3933-590c-4fa6-8957-298a8b8a94bd",
-        "remark": "🐒54@unvisible_drops",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.mozilla.org",
-        "fingerprint": "chrome",
-        "publicKey": "4SvSS7EqHyV_LDW4vB2f7UIj6x_GXsR3vMnqnaxspHo",
-        "shortId": "42237f32aba8",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://9a6f3933-590c-4fa6-8957-298a8b8a94bd@142.111.162.39:443?security=reality&encryption=none&pbk=4SvSS7EqHyV_LDW4vB2f7UIj6x_GXsR3vMnqnaxspHo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozilla.org&sid=42237f32aba8#%F0%9F%90%9254%40unvisible_drops",
-        "udp_supported": true
-      },
-      {
         "id": "fc873019126e",
         "protocol": "vless",
         "address": "45.149.115.148",
@@ -446,7 +423,31 @@
         "udp_supported": true
       }
     ],
-    "vless_tls": [],
+    "vless_tls": [
+      {
+        "id": "f397a23f0547",
+        "protocol": "vless",
+        "address": "162.159.36.20",
+        "port": 2053,
+        "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145",
+        "remark": "🛡 V 105 @Outline_Vpn",
+        "network": "ws",
+        "security": "tls",
+        "sni": "ir1.airpanel.top",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "ir1.airpanel.top",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@162.159.36.20:2053?path=%2F&security=tls&encryption=none&insecure=1&host=ir1.airpanel.top&type=ws&allowInsecure=1&sni=ir1.airpanel.top#%F0%9F%9B%A1%20V%20105%20%40Outline_Vpn",
+        "udp_supported": true
+      }
+    ],
     "vless_other": [
       {
         "id": "0820580909be",
