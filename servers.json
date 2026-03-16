@@ -4,7 +4,7 @@
     "reality_count": 20,
     "vless_tls_count": 0,
     "vless_other_count": 0,
-    "last_check": 1773656488.7915652
+    "last_check": 1773659903.087037
   },
   "servers": {
     "reality": [
@@ -331,29 +331,6 @@
         "udp_supported": true
       },
       {
-        "id": "1cf26aff30f2",
-        "protocol": "vless",
-        "address": "142.111.162.39",
-        "port": 443,
-        "uuid": "9a6f3933-590c-4fa6-8957-298a8b8a94bd",
-        "remark": "🐒54@unvisible_drops",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.mozilla.org",
-        "fingerprint": "chrome",
-        "publicKey": "4SvSS7EqHyV_LDW4vB2f7UIj6x_GXsR3vMnqnaxspHo",
-        "shortId": "42237f32aba8",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://9a6f3933-590c-4fa6-8957-298a8b8a94bd@142.111.162.39:443?security=reality&encryption=none&pbk=4SvSS7EqHyV_LDW4vB2f7UIj6x_GXsR3vMnqnaxspHo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.mozilla.org&sid=42237f32aba8#%F0%9F%90%9254%40unvisible_drops",
-        "udp_supported": true
-      },
-      {
         "id": "fc873019126e",
         "protocol": "vless",
         "address": "45.149.115.148",
@@ -466,6 +443,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.25:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#Join+Telegram:@Farah_VPN",
+        "udp_supported": true
+      },
+      {
+        "id": "33e3409c29bc",
+        "protocol": "vless",
+        "address": "77.73.232.61",
+        "port": 19747,
+        "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+        "remark": "Join+Telegram:@Farah_VPN",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
+        "shortId": "2001",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "/",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://2a9ed01e-5455-44b4-a66a-76ee8165f0ac@77.73.232.61:19747?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM&sid=2001&type=tcp&headerType=none&host=/&path=/#Join+Telegram:@Farah_VPN",
         "udp_supported": true
       }
     ],
