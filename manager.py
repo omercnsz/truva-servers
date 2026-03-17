@@ -130,6 +130,13 @@ def run_pool_management():
             "general_count": len(final_general),
             "last_check": str(datetime.now())
         },
+        "servers": {
+            # Uygulamanın beklediği ana anahtar (Geriye dönük uyumluluk)
+            # Burada oyun sunucularını ve genel sunucuları öncelik sırasına göre birleştiriyoruz
+            "reality": g_reality + w_reality,
+            "vless_tls": g_tls + w_tls,
+            "vless_other": g_other + w_other,
+        },
         "gaming": {
             "reality": g_reality,
             "vless_tls": g_tls,
