@@ -4,7 +4,7 @@ import os
 import concurrent.futures
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 from scraper import collect_all
 from parser import parse_vless_uri, save_json, OUTPUT_FILE
