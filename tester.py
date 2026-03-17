@@ -38,7 +38,7 @@ def test_server_with_xray(
         )
         
         # Xray'in hazır olması için bekle
-        time.sleep(2.0)
+        time.sleep(1.2)
         
         # 1. TCP TESTİ (HTTP Get - Genel İnternet)
         try:

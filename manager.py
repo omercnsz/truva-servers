@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import concurrent.futures
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any
@@ -11,7 +12,8 @@ from tester import test_server_with_xray
 
 # Konfigürasyon
 POOL_SIZE = 20
-XRAY_PATH = "xray" # GitHub Actions'da 'xray' olacak. Lokal için .exe gerekebilir.
+MAX_THREADS = 10
+XRAY_PATH = "xray" 
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,74 +27,93 @@ def load_existing_servers() -> List[Dict[str, Any]]:
         return []
     try:
         data = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
-        # servers.json yapısı { "servers": { "reality": [], "vless_tls": [], ... } }
-        # Tüm listeleri birleştirip döndürelim
         all_servers = []
-        for category in data.get("servers", {}).values():
-            all_servers.extend(category)
+        # Eski yapıda servers anahtarı altındaydı, yeni yapıda gaming/general altında
+        if "servers" in data:
+            for category in data.get("servers", {}).values():
+                all_servers.extend(category)
+        else:
+            for category in ["gaming", "general"]:
+                if category in data:
+                    for tech in data[category].values():
+                        all_servers.extend(tech)
         return all_servers
     except Exception as e:
         logger.error(f"Eski sunucular yüklenemedi: {e}")
         return []
 
-def run_pool_management():
-    logger.info("═══ Havuz yönetimi başladı (Dual-Type: Genel + Oyun) ═══")
-    
-    # 1. Mevcut sunucuları test et
-    existing = load_existing_servers()
-    working_servers = [] # Sadece TCP (veya hem TCP hem UDP) çalışan her şey
-    
-    logger.info(f"Mevcut {len(existing)} sunucu kontrol ediliyor...")
-    for s in existing:
-        res = test_server_with_xray(s, xray_path=XRAY_PATH)
-        if res["tcp"]:
-            s["udp_supported"] = res["udp"] # Flag olarak sakla
-            working_servers.append(s)
-            status = "UDP+TCP" if res["udp"] else "Sadece TCP"
-            logger.info(f"  [{status}] {s['id']} - {s['remark']}")
-        else:
-            logger.info(f"  [ÖLÜ] {s['id']} - {s['remark']}")
-        
-        if len(working_servers) >= POOL_SIZE * 3: # Havuz sınırını geniş tutalım
-            break
+def test_single_server(server: Dict[str, Any], port: int) -> Optional[Dict[str, Any]]:
+    """Tek bir sunucuyu test eder ve başarılıysa döndürür."""
+    res = test_server_with_xray(server, xray_path=XRAY_PATH, local_port=port)
+    if res["tcp"]:
+        server["udp_supported"] = res["udp"]
+        return server
+    return None
 
-    # 2. Eğer havuz dolmadıysa yeni link kazı
+def run_pool_management():
+    logger.info(f"═══ Havuz yönetimi başladı (Paralel Test - {MAX_THREADS} Thread) ═══")
+    
+    existing = load_existing_servers()
+    working_servers = []
+    
+    # 1. Mevcut sunucuları paralel test et
+    if existing:
+        logger.info(f"Mevcut {len(existing)} sunucu kontrol ediliyor...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            # Portları 10000'den başlatarak çakışmayı önle
+            future_to_server = {
+                executor.submit(test_single_server, s, 10000 + i % MAX_THREADS): s 
+                for i, s in enumerate(existing)
+            }
+            for future in concurrent.futures.as_completed(future_to_server):
+                result = future.result()
+                if result:
+                    working_servers.append(result)
+                    status = "UDP+TCP" if result["udp_supported"] else "Sadece TCP"
+                    logger.info(f"  [{status}] {result['id']} - {result['remark']}")
+                
+                if len(working_servers) >= POOL_SIZE * 4:
+                    break
+
+    # 2. Eğer havuz dolmadıysa yeni linkleri paralel kazı ve test et
     if len(working_servers) < POOL_SIZE * 2:
         logger.info("Havuz yetersiz, yeni kaynaklar taranıyor...")
         raw_links = collect_all()
         seen_ids = {s["id"] for s in working_servers}
         
+        candidates = []
         for link in raw_links:
             parsed = parse_vless_uri(link)
-            if not parsed or parsed["id"] in seen_ids:
-                continue
-            
-            # Gaming için uygunsuz protokolleri sadece UDP flag'i için not ediyoruz, 
-            # ancak TCP çalışıyorsa "Genel" havuza alıyoruz.
-            logger.info(f"Yeni sunucu test ediliyor: {parsed['id']}...")
-            res = test_server_with_xray(parsed, xray_path=XRAY_PATH)
-            
-            if res["tcp"]:
-                parsed["udp_supported"] = res["udp"]
-                working_servers.append(parsed)
+            if parsed and parsed["id"] not in seen_ids:
+                candidates.append(parsed)
                 seen_ids.add(parsed["id"])
-                status = "UDP+TCP" if res["udp"] else "Sadece TCP"
-                logger.info(f"  [KAYDEDİLDİ - {status}] {parsed['remark']}")
-            
-            if len(working_servers) >= POOL_SIZE * 3:
+            if len(candidates) >= 150: # Çok fazla link test edip vakit kaybetmeyelim
                 break
 
-    # 3. KATEGORİZASYON
-    # Oyun sunucuları: UDP desteği olanlar
+        logger.info(f"{len(candidates)} yeni aday test ediliyor...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            future_to_new = {
+                executor.submit(test_single_server, s, 11000 + i % MAX_THREADS): s 
+                for i, s in enumerate(candidates)
+            }
+            for future in concurrent.futures.as_completed(future_to_new):
+                result = future.result()
+                if result:
+                    working_servers.append(result)
+                    status = "UDP+TCP" if result["udp_supported"] else "Sadece TCP"
+                    logger.info(f"  [KAYDEDİLDİ - {status}] {result['remark']}")
+                
+                if len(working_servers) >= POOL_SIZE * 4:
+                    executor.shutdown(wait=False, cancel_futures=True)
+                    break
+
+    # 3. KATEGORİZASYON VE KAYIT
     gaming_pool = [s for s in working_servers if s.get("udp_supported")]
-    # Genel sunucular: UDP'si olmayan ama TCP'si çalışanlar
     general_pool = [s for s in working_servers if not s.get("udp_supported")]
 
-    # Her kategoriden en iyileri (veya ilk bulunanları) seç
     final_gaming = gaming_pool[:POOL_SIZE]
     final_general = general_pool[:POOL_SIZE]
 
-    # Teknik kategorilere ayırma (Reality, TLS vb.) - JSON yapısını korumak için
     def split_by_tech(pool):
         reality = [s for s in pool if s.get("security") == "reality" or s.get("protocol") == "reality"]
         vless_tls = [s for s in pool if s not in reality and s.get("security") == "tls"]
@@ -126,10 +147,9 @@ def run_pool_management():
     logger.info("═══ Havuz yönetimi tamamlandı ═══")
 
 if __name__ == "__main__":
-    # Xray binary'sinin adını OS'a göre ayarla
     if os.name == 'nt':
         XRAY_PATH = "xray.exe"
     else:
-        XRAY_PATH = "./xray"  # Linux (GitHub Actions) için ./xray olmalı
+        XRAY_PATH = "./xray"
     
     run_pool_management()
