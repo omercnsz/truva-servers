@@ -23,7 +23,8 @@ def generate_xray_config(server: Dict[str, Any], local_port: int = 1080) -> Dict
             "address": server["address"],
             "port": int(server["port"]),
             "users": [user_settings]
-        }]
+        }],
+        "udp": True
     }
 
     # Stream Settings (Network & Security)
@@ -104,7 +105,9 @@ def generate_xray_config(server: Dict[str, Any], local_port: int = 1080) -> Dict
             {
                 "tag": "direct",
                 "protocol": "freedom",
-                "settings": {}
+                "settings": {
+                    "domainStrategy": "UseIP"
+                }
             },
             {
                 "tag": "block",
