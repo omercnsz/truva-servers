@@ -36,83 +36,93 @@ def load_existing_servers() -> List[Dict[str, Any]]:
         return []
 
 def run_pool_management():
-    logger.info("═══ Havuz yönetimi başladı (Oyun Odaklı: Reality Öncelikli) ═══")
+    logger.info("═══ Havuz yönetimi başladı (Dual-Type: Genel + Oyun) ═══")
     
-    # 1. Mevcut sunucuları test et (Health Check)
+    # 1. Mevcut sunucuları test et
     existing = load_existing_servers()
-    all_healthy = []
+    working_servers = [] # Sadece TCP (veya hem TCP hem UDP) çalışan her şey
     
     logger.info(f"Mevcut {len(existing)} sunucu kontrol ediliyor...")
     for s in existing:
-        # Gaming için uygunsuz protokolleri (WS gibi) deprioritize et veya elendiklerinden emin ol
-        # Ancak zaten havuza girmişse sağlıklıdır.
-        if test_server_with_xray(s, xray_path=XRAY_PATH):
-            s["udp_supported"] = True
-            all_healthy.append(s)
-            logger.info(f"  [SAĞLIKLI] {s['id']} - {s['remark']}")
+        res = test_server_with_xray(s, xray_path=XRAY_PATH)
+        if res["tcp"]:
+            s["udp_supported"] = res["udp"] # Flag olarak sakla
+            working_servers.append(s)
+            status = "UDP+TCP" if res["udp"] else "Sadece TCP"
+            logger.info(f"  [{status}] {s['id']} - {s['remark']}")
         else:
-            logger.info(f"  [ÖLÜ/YAVAŞ] {s['id']} - {s['remark']}")
+            logger.info(f"  [ÖLÜ] {s['id']} - {s['remark']}")
         
-        if len(all_healthy) >= POOL_SIZE * 2: # Daha fazla toplayıp sonra içinden en iyileri seçeceğiz
+        if len(working_servers) >= POOL_SIZE * 3: # Havuz sınırını geniş tutalım
             break
 
     # 2. Eğer havuz dolmadıysa yeni link kazı
-    if len(all_healthy) < POOL_SIZE:
+    if len(working_servers) < POOL_SIZE * 2:
         logger.info("Havuz yetersiz, yeni kaynaklar taranıyor...")
         raw_links = collect_all()
-        
-        seen_ids = {s["id"] for s in all_healthy}
+        seen_ids = {s["id"] for s in working_servers}
         
         for link in raw_links:
             parsed = parse_vless_uri(link)
             if not parsed or parsed["id"] in seen_ids:
                 continue
             
-            # KRİTİK FİLTRE: WS (WebSocket) ve Cloudflare tabanlı linkleri oyun için uygun olmadığından eliyoruz
-            network = parsed.get("network", "tcp").lower()
-            remark = parsed.get("remark", "").lower()
-            if network == "ws" or "cloudflare" in remark or "cdc" in remark:
-                logger.debug(f"  [ATLANDI - GAMING] {parsed['remark']} (WS/Cloudflare)")
-                continue
-
+            # Gaming için uygunsuz protokolleri sadece UDP flag'i için not ediyoruz, 
+            # ancak TCP çalışıyorsa "Genel" havuza alıyoruz.
             logger.info(f"Yeni sunucu test ediliyor: {parsed['id']}...")
-            if test_server_with_xray(parsed, xray_path=XRAY_PATH):
-                parsed["udp_supported"] = True
-                all_healthy.append(parsed)
-                seen_ids.add(parsed["id"])
-                logger.info(f"  [KAYDEDİLDİ] {parsed['remark']}")
+            res = test_server_with_xray(parsed, xray_path=XRAY_PATH)
             
-            if len(all_healthy) >= POOL_SIZE * 2:
+            if res["tcp"]:
+                parsed["udp_supported"] = res["udp"]
+                working_servers.append(parsed)
+                seen_ids.add(parsed["id"])
+                status = "UDP+TCP" if res["udp"] else "Sadece TCP"
+                logger.info(f"  [KAYDEDİLDİ - {status}] {parsed['remark']}")
+            
+            if len(working_servers) >= POOL_SIZE * 3:
                 break
 
-    # 3. SIRALAMA VE SEÇİM: Reality protokollerini en başa al, sonra diğerlerini ekle
-    reality_pool = [s for s in all_healthy if s.get("security") == "reality" or s.get("protocol") == "reality"]
-    others_pool = [s for s in all_healthy if s not in reality_pool]
-    
-    # Yeni havuzu oluştur: Önce Reality, sonra kalanlar (toplam POOL_SIZE kadar)
-    final_pool = (reality_pool + others_pool)[:POOL_SIZE]
+    # 3. KATEGORİZASYON
+    # Oyun sunucuları: UDP desteği olanlar
+    gaming_pool = [s for s in working_servers if s.get("udp_supported")]
+    # Genel sunucular: UDP'si olmayan ama TCP'si çalışanlar
+    general_pool = [s for s in working_servers if not s.get("udp_supported")]
 
-    reality_final = [s for s in final_pool if s.get("security") == "reality" or s.get("protocol") == "reality"]
-    vless_tls = [s for s in final_pool if s not in reality_final and s.get("security") == "tls"]
-    vless_other = [s for s in final_pool if s not in reality_final and s not in vless_tls]
+    # Her kategoriden en iyileri (veya ilk bulunanları) seç
+    final_gaming = gaming_pool[:POOL_SIZE]
+    final_general = general_pool[:POOL_SIZE]
+
+    # Teknik kategorilere ayırma (Reality, TLS vb.) - JSON yapısını korumak için
+    def split_by_tech(pool):
+        reality = [s for s in pool if s.get("security") == "reality" or s.get("protocol") == "reality"]
+        vless_tls = [s for s in pool if s not in reality and s.get("security") == "tls"]
+        vless_other = [s for s in pool if s not in reality and s not in vless_tls]
+        return reality, vless_tls, vless_other
+
+    g_reality, g_tls, g_other = split_by_tech(final_gaming)
+    w_reality, w_tls, w_other = split_by_tech(final_general)
 
     output_data = {
         "metadata": {
-            "total": len(final_pool),
-            "reality_count": len(reality_final),
-            "vless_tls_count": len(vless_tls),
-            "vless_other_count": len(vless_other),
+            "total_working": len(working_servers),
+            "gaming_count": len(final_gaming),
+            "general_count": len(final_general),
             "last_check": str(datetime.now())
         },
-        "servers": {
-            "reality": reality_final,
-            "vless_tls": vless_tls,
-            "vless_other": vless_other,
+        "gaming": {
+            "reality": g_reality,
+            "vless_tls": g_tls,
+            "vless_other": g_other,
+        },
+        "general": {
+            "reality": w_reality,
+            "vless_tls": w_tls,
+            "vless_other": w_other,
         }
     }
     
     save_json(output_data)
-    logger.info(f"Havuz güncellendi (Reality: {len(reality_final)}): {OUTPUT_FILE}")
+    logger.info(f"Havuz güncellendi (Oyun: {len(final_gaming)}, Genel: {len(final_general)})")
     logger.info("═══ Havuz yönetimi tamamlandı ═══")
 
 if __name__ == "__main__":
