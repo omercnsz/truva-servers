@@ -38,11 +38,18 @@ def parse_vless_uri(uri: str) -> Optional[Dict[str, Any]]:
         # Boşluk / kontrol karakterlerini temizle (bazı kaynaklarda oluyor)
         uri = uri.replace(" ", "%20").replace("\t", "").replace("\r", "")
 
-        # reality:// → vless:// olarak normalize et, protocol alanında sakla
-        original_scheme = "reality" if uri.startswith("reality://") else "vless"
+        # Şemayı belirle ve normalize et
+        protocol_match = re.match(r"^([a-z0-9]+)://", uri)
+        if not protocol_match:
+            return None
+        
+        protocol = protocol_match.group(1)
         normalized = uri
-        if original_scheme == "reality":
+        if protocol == "reality":
             normalized = "vless" + uri[len("reality"):]
+        elif protocol in ["hysteria2", "tuic"]:
+            # URL parse için vless gibi davranabilirler
+            normalized = "vless" + uri[len(protocol):]
 
         parsed = urlparse(normalized)
 
@@ -67,7 +74,7 @@ def parse_vless_uri(uri: str) -> Optional[Dict[str, Any]]:
 
         server: Dict[str, Any] = {
             "id": fingerprint,
-            "protocol": original_scheme,
+            "protocol": protocol,
             "address": parsed.hostname,
             "port": parsed.port,
             "uuid": uuid,

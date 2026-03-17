@@ -35,72 +35,83 @@ def load_existing_servers() -> List[Dict[str, Any]]:
         return []
 
 def run_pool_management():
-    logger.info("═══ Havuz yönetimi başladı ═══")
+    logger.info("═══ Havuz yönetimi başladı (Oyun Odaklı: Reality Öncelikli) ═══")
     
     # 1. Mevcut sunucuları test et (Health Check)
     existing = load_existing_servers()
-    healthy_servers = []
+    all_healthy = []
     
     logger.info(f"Mevcut {len(existing)} sunucu kontrol ediliyor...")
     for s in existing:
+        # Gaming için uygunsuz protokolleri (WS gibi) deprioritize et veya elendiklerinden emin ol
+        # Ancak zaten havuza girmişse sağlıklıdır.
         if test_server_with_xray(s, xray_path=XRAY_PATH):
             s["udp_supported"] = True
-            healthy_servers.append(s)
+            all_healthy.append(s)
             logger.info(f"  [SAĞLIKLI] {s['id']} - {s['remark']}")
         else:
             logger.info(f"  [ÖLÜ/YAVAŞ] {s['id']} - {s['remark']}")
         
-        if len(healthy_servers) >= POOL_SIZE:
+        if len(all_healthy) >= POOL_SIZE * 2: # Daha fazla toplayıp sonra içinden en iyileri seçeceğiz
             break
 
-    logger.info(f"Sağlıklı kalan: {len(healthy_servers)}/{POOL_SIZE}")
-
     # 2. Eğer havuz dolmadıysa yeni link kazı
-    if len(healthy_servers) < POOL_SIZE:
-        logger.info("Havuz eksik, yeni kaynaklar taranıyor...")
+    if len(all_healthy) < POOL_SIZE:
+        logger.info("Havuz yetersiz, yeni kaynaklar taranıyor...")
         raw_links = collect_all()
         
-        # Daha önce test ettiklerimizi (healthy ve ölüler dahil) pas geçmek için kimlikleri alalım
-        seen_ids = {s["id"] for s in existing}
+        seen_ids = {s["id"] for s in all_healthy}
         
         for link in raw_links:
             parsed = parse_vless_uri(link)
             if not parsed or parsed["id"] in seen_ids:
                 continue
             
+            # KRİTİK FİLTRE: WS (WebSocket) ve Cloudflare tabanlı linkleri oyun için uygun olmadığından eliyoruz
+            network = parsed.get("network", "tcp").lower()
+            remark = parsed.get("remark", "").lower()
+            if network == "ws" or "cloudflare" in remark or "cdc" in remark:
+                logger.debug(f"  [ATLANDI - GAMING] {parsed['remark']} (WS/Cloudflare)")
+                continue
+
             logger.info(f"Yeni sunucu test ediliyor: {parsed['id']}...")
             if test_server_with_xray(parsed, xray_path=XRAY_PATH):
                 parsed["udp_supported"] = True
-                healthy_servers.append(parsed)
+                all_healthy.append(parsed)
                 seen_ids.add(parsed["id"])
                 logger.info(f"  [KAYDEDİLDİ] {parsed['remark']}")
             
-            if len(healthy_servers) >= POOL_SIZE:
-                logger.info("Havuz 20'ye ulaştı, tarama durduruldu.")
+            if len(all_healthy) >= POOL_SIZE * 2:
                 break
 
-    # 3. Sonuçları kategorize et ve kaydet
-    reality_servers = [s for s in healthy_servers if s.get("security") == "reality" or s.get("protocol") == "reality"]
-    vless_tls = [s for s in healthy_servers if s not in reality_servers and s.get("security") == "tls"]
-    vless_other = [s for s in healthy_servers if s not in reality_servers and s not in vless_tls]
+    # 3. SIRALAMA VE SEÇİM: Reality protokollerini en başa al, sonra diğerlerini ekle
+    reality_pool = [s for s in all_healthy if s.get("security") == "reality" or s.get("protocol") == "reality"]
+    others_pool = [s for s in all_healthy if s not in reality_pool]
+    
+    # Yeni havuzu oluştur: Önce Reality, sonra kalanlar (toplam POOL_SIZE kadar)
+    final_pool = (reality_pool + others_pool)[:POOL_SIZE]
+
+    reality_final = [s for s in final_pool if s.get("security") == "reality" or s.get("protocol") == "reality"]
+    vless_tls = [s for s in final_pool if s not in reality_final and s.get("security") == "tls"]
+    vless_other = [s for s in final_pool if s not in reality_final and s not in vless_tls]
 
     output_data = {
         "metadata": {
-            "total": len(healthy_servers),
-            "reality_count": len(reality_servers),
+            "total": len(final_pool),
+            "reality_count": len(reality_final),
             "vless_tls_count": len(vless_tls),
             "vless_other_count": len(vless_other),
-            "last_check": Path(__file__).stat().st_mtime # Veya datetime.now()
+            "last_check": str(datetime.now())
         },
         "servers": {
-            "reality": reality_servers,
+            "reality": reality_final,
             "vless_tls": vless_tls,
             "vless_other": vless_other,
         }
     }
     
     save_json(output_data)
-    logger.info(f"Havuz güncellendi ve kaydedildi: {OUTPUT_FILE}")
+    logger.info(f"Havuz güncellendi (Reality: {len(reality_final)}): {OUTPUT_FILE}")
     logger.info("═══ Havuz yönetimi tamamlandı ═══")
 
 if __name__ == "__main__":

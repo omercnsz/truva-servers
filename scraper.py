@@ -141,10 +141,20 @@ SOURCES: List[dict] = [
         "type": "telegram",
         "url": "https://t.me/s/vaboron",
     },
+    {
+        "name": "Telegram: RealityV2ray",
+        "type": "telegram",
+        "url": "https://t.me/s/RealityV2ray",
+    },
+    {
+        "name": "Telegram: VlessConfig",
+        "type": "telegram",
+        "url": "https://t.me/s/vlessconfig",
+    },
 ]
 
-# vless:// veya reality:// ile başlayan URI'ları yakalayan regex
-LINK_PATTERN = re.compile(r"(?:vless|reality)://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+")
+# vless://, reality://, hysteria2://, tuic:// ile başlayan URI'ları yakalayan regex
+LINK_PATTERN = re.compile(r"(?:vless|reality|hysteria2|tuic)://[A-Za-z0-9\-._~:/?#\[\]@!$&'()*+,;=%]+")
 
 # İstek zaman aşımı (saniye)
 REQUEST_TIMEOUT = 30
