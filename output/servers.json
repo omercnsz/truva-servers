@@ -2,8 +2,8 @@
   "metadata": {
     "total_working": 25,
     "gaming_count": 20,
-    "general_count": 1,
-    "last_check": "2026-03-18 13:36:19.934557"
+    "general_count": 0,
+    "last_check": "2026-03-18 14:34:34.695941"
   },
   "servers": {
     "reality": [
@@ -77,6 +77,29 @@
         "udp_supported": true
       },
       {
+        "id": "183e09395636",
+        "protocol": "vless",
+        "address": "51.158.206.97",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "@unvisible_drops•4",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "udp_supported": true
+      },
+      {
         "id": "9f206220a786",
         "protocol": "vless",
         "address": "57.129.53.182",
@@ -120,29 +143,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20TCP-Reality%20%F0%9F%93%81%20%40v2ray_configs_pool",
-        "udp_supported": true
-      },
-      {
-        "id": "183e09395636",
-        "protocol": "vless",
-        "address": "51.158.206.97",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -284,29 +284,6 @@
         "udp_supported": true
       },
       {
-        "id": "ae3fbdeeaee7",
-        "protocol": "vless",
-        "address": "90.156.255.198",
-        "port": 51114,
-        "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
-        "remark": "🇱🇻 TCP-Reality 📁 @v2nodes",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U",
-        "shortId": "772e",
-        "spiderX": "/",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
-        "udp_supported": true
-      },
-      {
         "id": "507c51a77677",
         "protocol": "vless",
         "address": "94.232.247.168",
@@ -327,6 +304,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "udp_supported": true
+      },
+      {
+        "id": "ae3fbdeeaee7",
+        "protocol": "vless",
+        "address": "90.156.255.198",
+        "port": 51114,
+        "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
+        "remark": "🇱🇻 TCP-Reality 📁 @v2nodes",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U",
+        "shortId": "772e",
+        "spiderX": "/",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
         "udp_supported": true
       }
     ],
@@ -470,29 +470,6 @@
         "allowInsecure": "0",
         "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#%F0%9F%8C%90%20GRPC-None%20%7C%20%40Express_alaki%20%7C%20src%20%40anotherme_night",
         "udp_supported": true
-      },
-      {
-        "id": "922407a994bb",
-        "protocol": "vless",
-        "address": "91.99.218.107",
-        "port": 36454,
-        "uuid": "98fb333c-3d84-4fa4-b1f7-1683b509f65a",
-        "remark": "🌐 TCP-None 📁 @v2ray_Extractor",
-        "network": "tcp",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@91.99.218.107:36454?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-None%20%F0%9F%93%81%20%40v2ray_Extractor",
-        "udp_supported": false
       }
     ]
   },
@@ -568,6 +545,29 @@
         "udp_supported": true
       },
       {
+        "id": "183e09395636",
+        "protocol": "vless",
+        "address": "51.158.206.97",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "@unvisible_drops•4",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "udp_supported": true
+      },
+      {
         "id": "9f206220a786",
         "protocol": "vless",
         "address": "57.129.53.182",
@@ -611,29 +611,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20TCP-Reality%20%F0%9F%93%81%20%40v2ray_configs_pool",
-        "udp_supported": true
-      },
-      {
-        "id": "183e09395636",
-        "protocol": "vless",
-        "address": "51.158.206.97",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -775,29 +752,6 @@
         "udp_supported": true
       },
       {
-        "id": "ae3fbdeeaee7",
-        "protocol": "vless",
-        "address": "90.156.255.198",
-        "port": 51114,
-        "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
-        "remark": "🇱🇻 TCP-Reality 📁 @v2nodes",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U",
-        "shortId": "772e",
-        "spiderX": "/",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
-        "udp_supported": true
-      },
-      {
         "id": "507c51a77677",
         "protocol": "vless",
         "address": "94.232.247.168",
@@ -818,6 +772,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "udp_supported": true
+      },
+      {
+        "id": "ae3fbdeeaee7",
+        "protocol": "vless",
+        "address": "90.156.255.198",
+        "port": 51114,
+        "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
+        "remark": "🇱🇻 TCP-Reality 📁 @v2nodes",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U",
+        "shortId": "772e",
+        "spiderX": "/",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
         "udp_supported": true
       }
     ],
@@ -967,30 +944,6 @@
   "general": {
     "reality": [],
     "vless_tls": [],
-    "vless_other": [
-      {
-        "id": "922407a994bb",
-        "protocol": "vless",
-        "address": "91.99.218.107",
-        "port": 36454,
-        "uuid": "98fb333c-3d84-4fa4-b1f7-1683b509f65a",
-        "remark": "🌐 TCP-None 📁 @v2ray_Extractor",
-        "network": "tcp",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@91.99.218.107:36454?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-None%20%F0%9F%93%81%20%40v2ray_Extractor",
-        "udp_supported": false
-      }
-    ]
+    "vless_other": []
   }
 }
