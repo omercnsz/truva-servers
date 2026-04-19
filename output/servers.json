@@ -3,10 +3,33 @@
     "total_working": 15,
     "gaming_count": 15,
     "general_count": 0,
-    "last_check": "2026-04-19 12:15:31.784617"
+    "last_check": "2026-04-19 12:50:06.118068"
   },
   "servers": {
     "reality": [
+      {
+        "id": "d23492028be3",
+        "protocol": "vless",
+        "address": "172.234.130.82",
+        "port": 10001,
+        "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
+        "remark": "🌐 TCP-Reality | @Express_alaki | src @anotherme_night",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "firefox",
+        "publicKey": "kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM",
+        "shortId": "1a24af87",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40anotherme_night",
+        "udp_supported": true
+      },
       {
         "id": "3ee2fd77d1f0",
         "protocol": "vless",
@@ -31,12 +54,12 @@
         "udp_supported": true
       },
       {
-        "id": "183e09395636",
+        "id": "6e81c42a6cae",
         "protocol": "vless",
-        "address": "51.158.206.97",
+        "address": "51.158.206.87",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
+        "remark": "@iranj13⚡",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -50,7 +73,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40iranj13%E2%9A%A1",
         "udp_supported": true
       },
       {
@@ -77,12 +100,12 @@
         "udp_supported": true
       },
       {
-        "id": "6e81c42a6cae",
+        "id": "183e09395636",
         "protocol": "vless",
-        "address": "51.158.206.87",
+        "address": "51.158.206.97",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@iranj13⚡",
+        "remark": "@unvisible_drops•4",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -96,7 +119,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40iranj13%E2%9A%A1",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -169,18 +192,18 @@
         "udp_supported": true
       },
       {
-        "id": "d23492028be3",
+        "id": "507c51a77677",
         "protocol": "vless",
-        "address": "172.234.130.82",
-        "port": 10001,
-        "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
-        "remark": "🌐 TCP-Reality | @Express_alaki | src @anotherme_night",
+        "address": "94.232.247.168",
+        "port": 41360,
+        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
-        "fingerprint": "firefox",
-        "publicKey": "kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM",
-        "shortId": "1a24af87",
+        "fingerprint": "chrome",
+        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+        "shortId": "1aab45",
         "spiderX": "",
         "flow": "",
         "path": "",
@@ -188,7 +211,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40anotherme_night",
+        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
         "udp_supported": true
       },
       {
@@ -212,29 +235,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
-        "udp_supported": true
-      },
-      {
-        "id": "507c51a77677",
-        "protocol": "vless",
-        "address": "94.232.247.168",
-        "port": 41360,
-        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
-        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
-        "shortId": "1aab45",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
         "udp_supported": true
       }
     ],
@@ -361,6 +361,29 @@
   "gaming": {
     "reality": [
       {
+        "id": "d23492028be3",
+        "protocol": "vless",
+        "address": "172.234.130.82",
+        "port": 10001,
+        "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
+        "remark": "🌐 TCP-Reality | @Express_alaki | src @anotherme_night",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "firefox",
+        "publicKey": "kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM",
+        "shortId": "1a24af87",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40anotherme_night",
+        "udp_supported": true
+      },
+      {
         "id": "3ee2fd77d1f0",
         "protocol": "vless",
         "address": "51.158.206.103",
@@ -384,12 +407,12 @@
         "udp_supported": true
       },
       {
-        "id": "183e09395636",
+        "id": "6e81c42a6cae",
         "protocol": "vless",
-        "address": "51.158.206.97",
+        "address": "51.158.206.87",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
+        "remark": "@iranj13⚡",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -403,7 +426,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40iranj13%E2%9A%A1",
         "udp_supported": true
       },
       {
@@ -430,12 +453,12 @@
         "udp_supported": true
       },
       {
-        "id": "6e81c42a6cae",
+        "id": "183e09395636",
         "protocol": "vless",
-        "address": "51.158.206.87",
+        "address": "51.158.206.97",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@iranj13⚡",
+        "remark": "@unvisible_drops•4",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -449,7 +472,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40iranj13%E2%9A%A1",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -522,18 +545,18 @@
         "udp_supported": true
       },
       {
-        "id": "d23492028be3",
+        "id": "507c51a77677",
         "protocol": "vless",
-        "address": "172.234.130.82",
-        "port": 10001,
-        "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
-        "remark": "🌐 TCP-Reality | @Express_alaki | src @anotherme_night",
+        "address": "94.232.247.168",
+        "port": 41360,
+        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
-        "fingerprint": "firefox",
-        "publicKey": "kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM",
-        "shortId": "1a24af87",
+        "fingerprint": "chrome",
+        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+        "shortId": "1aab45",
         "spiderX": "",
         "flow": "",
         "path": "",
@@ -541,7 +564,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40anotherme_night",
+        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
         "udp_supported": true
       },
       {
@@ -565,29 +588,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
-        "udp_supported": true
-      },
-      {
-        "id": "507c51a77677",
-        "protocol": "vless",
-        "address": "94.232.247.168",
-        "port": 41360,
-        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
-        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
-        "shortId": "1aab45",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
         "udp_supported": true
       }
     ],
