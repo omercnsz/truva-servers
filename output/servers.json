@@ -3,17 +3,17 @@
     "total_working": 16,
     "gaming_count": 16,
     "general_count": 0,
-    "last_check": "2026-04-25 10:48:39.057649"
+    "last_check": "2026-04-25 11:19:16.277165"
   },
   "servers": {
     "reality": [
       {
-        "id": "183e09395636",
+        "id": "3ee2fd77d1f0",
         "protocol": "vless",
-        "address": "51.158.206.97",
+        "address": "51.158.206.103",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
+        "remark": "❣️🖤1",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -23,11 +23,11 @@
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
-        "host": "",
+        "host": "Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&host=Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%E2%9D%A3%EF%B8%8F%F0%9F%96%A41",
         "udp_supported": true
       },
       {
@@ -77,12 +77,12 @@
         "udp_supported": true
       },
       {
-        "id": "3ee2fd77d1f0",
+        "id": "183e09395636",
         "protocol": "vless",
-        "address": "51.158.206.103",
+        "address": "51.158.206.97",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "❣️🖤1",
+        "remark": "@unvisible_drops•4",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -92,11 +92,11 @@
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
-        "host": "Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&host=Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%E2%9D%A3%EF%B8%8F%F0%9F%96%A41",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -288,13 +288,13 @@
         "udp_supported": true
       },
       {
-        "id": "42d3a2e25079",
+        "id": "d65e2ad88992",
         "protocol": "vless",
-        "address": "yesok42v2.ip4exordir.shop",
-        "port": 8880,
-        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-        "remark": "🇺🇸 GRPC-None 📁 @FreakConfig",
-        "network": "grpc",
+        "address": "104.26.13.31",
+        "port": 80,
+        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
+        "remark": "@V2ray_confiig",
+        "network": "ws",
         "security": "none",
         "sni": "",
         "fingerprint": "",
@@ -303,11 +303,11 @@
         "spiderX": "",
         "flow": "",
         "path": "",
-        "host": "",
+        "host": "floral-term-d21f.wafajax493.workers.dev",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20GRPC-None%20%F0%9F%93%81%20%40FreakConfig",
+        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
         "udp_supported": true
       },
       {
@@ -334,13 +334,13 @@
         "udp_supported": true
       },
       {
-        "id": "d65e2ad88992",
+        "id": "42d3a2e25079",
         "protocol": "vless",
-        "address": "104.26.13.31",
-        "port": 80,
-        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
-        "remark": "@V2ray_confiig",
-        "network": "ws",
+        "address": "yesok42v2.ip4exordir.shop",
+        "port": 8880,
+        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+        "remark": "🇺🇸 GRPC-None 📁 @FreakConfig",
+        "network": "grpc",
         "security": "none",
         "sni": "",
         "fingerprint": "",
@@ -349,11 +349,11 @@
         "spiderX": "",
         "flow": "",
         "path": "",
-        "host": "floral-term-d21f.wafajax493.workers.dev",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
+        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20GRPC-None%20%F0%9F%93%81%20%40FreakConfig",
         "udp_supported": true
       },
       {
@@ -384,12 +384,12 @@
   "gaming": {
     "reality": [
       {
-        "id": "183e09395636",
+        "id": "3ee2fd77d1f0",
         "protocol": "vless",
-        "address": "51.158.206.97",
+        "address": "51.158.206.103",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "@unvisible_drops•4",
+        "remark": "❣️🖤1",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -399,11 +399,11 @@
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
-        "host": "",
+        "host": "Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&host=Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%E2%9D%A3%EF%B8%8F%F0%9F%96%A41",
         "udp_supported": true
       },
       {
@@ -453,12 +453,12 @@
         "udp_supported": true
       },
       {
-        "id": "3ee2fd77d1f0",
+        "id": "183e09395636",
         "protocol": "vless",
-        "address": "51.158.206.103",
+        "address": "51.158.206.97",
         "port": 23576,
         "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "❣️🖤1",
+        "remark": "@unvisible_drops•4",
         "network": "tcp",
         "security": "reality",
         "sni": "fuck.rkn",
@@ -468,11 +468,11 @@
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
-        "host": "Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&host=Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY-Telegram-ICV2RAY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%E2%9D%A3%EF%B8%8F%F0%9F%96%A41",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40unvisible_drops%E2%80%A24",
         "udp_supported": true
       },
       {
@@ -664,13 +664,13 @@
         "udp_supported": true
       },
       {
-        "id": "42d3a2e25079",
+        "id": "d65e2ad88992",
         "protocol": "vless",
-        "address": "yesok42v2.ip4exordir.shop",
-        "port": 8880,
-        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-        "remark": "🇺🇸 GRPC-None 📁 @FreakConfig",
-        "network": "grpc",
+        "address": "104.26.13.31",
+        "port": 80,
+        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
+        "remark": "@V2ray_confiig",
+        "network": "ws",
         "security": "none",
         "sni": "",
         "fingerprint": "",
@@ -679,11 +679,11 @@
         "spiderX": "",
         "flow": "",
         "path": "",
-        "host": "",
+        "host": "floral-term-d21f.wafajax493.workers.dev",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20GRPC-None%20%F0%9F%93%81%20%40FreakConfig",
+        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
         "udp_supported": true
       },
       {
@@ -710,13 +710,13 @@
         "udp_supported": true
       },
       {
-        "id": "d65e2ad88992",
+        "id": "42d3a2e25079",
         "protocol": "vless",
-        "address": "104.26.13.31",
-        "port": 80,
-        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
-        "remark": "@V2ray_confiig",
-        "network": "ws",
+        "address": "yesok42v2.ip4exordir.shop",
+        "port": 8880,
+        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+        "remark": "🇺🇸 GRPC-None 📁 @FreakConfig",
+        "network": "grpc",
         "security": "none",
         "sni": "",
         "fingerprint": "",
@@ -725,11 +725,11 @@
         "spiderX": "",
         "flow": "",
         "path": "",
-        "host": "floral-term-d21f.wafajax493.workers.dev",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
+        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#%F0%9F%87%BA%F0%9F%87%B8%20GRPC-None%20%F0%9F%93%81%20%40FreakConfig",
         "udp_supported": true
       },
       {
