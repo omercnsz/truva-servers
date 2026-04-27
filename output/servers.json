@@ -3,7 +3,7 @@
     "total_working": 13,
     "gaming_count": 13,
     "general_count": 0,
-    "last_check": "2026-04-27 21:50:34.242599"
+    "last_check": "2026-04-27 22:21:51.661727"
   },
   "servers": {
     "reality": [
@@ -77,29 +77,6 @@
         "udp_supported": true
       },
       {
-        "id": "842e44b95bb1",
-        "protocol": "vless",
-        "address": "95.164.85.109",
-        "port": 59374,
-        "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
-        "remark": "@filembad",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
-        "shortId": "d21e7c",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#%40filembad",
-        "udp_supported": true
-      },
-      {
         "id": "f4d065f6396e",
         "protocol": "vless",
         "address": "83.222.20.64",
@@ -166,6 +143,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
+        "udp_supported": true
+      },
+      {
+        "id": "842e44b95bb1",
+        "protocol": "vless",
+        "address": "95.164.85.109",
+        "port": 59374,
+        "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
+        "remark": "@filembad",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
+        "shortId": "d21e7c",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#%40filembad",
         "udp_supported": true
       },
       {
@@ -384,29 +384,6 @@
         "udp_supported": true
       },
       {
-        "id": "842e44b95bb1",
-        "protocol": "vless",
-        "address": "95.164.85.109",
-        "port": 59374,
-        "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
-        "remark": "@filembad",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
-        "shortId": "d21e7c",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#%40filembad",
-        "udp_supported": true
-      },
-      {
         "id": "f4d065f6396e",
         "protocol": "vless",
         "address": "83.222.20.64",
@@ -473,6 +450,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
+        "udp_supported": true
+      },
+      {
+        "id": "842e44b95bb1",
+        "protocol": "vless",
+        "address": "95.164.85.109",
+        "port": 59374,
+        "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
+        "remark": "@filembad",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
+        "shortId": "d21e7c",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#%40filembad",
         "udp_supported": true
       },
       {
