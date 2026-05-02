@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_working": 15,
-    "gaming_count": 14,
-    "general_count": 1,
-    "last_check": "2026-05-02 09:29:21.775941"
+    "gaming_count": 15,
+    "general_count": 0,
+    "last_check": "2026-05-02 09:53:24.354528"
   },
   "servers": {
     "reality": [
@@ -100,6 +100,29 @@
         "udp_supported": true
       },
       {
+        "id": "507c51a77677",
+        "protocol": "vless",
+        "address": "94.232.247.168",
+        "port": 41360,
+        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+        "shortId": "1aab45",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "udp_supported": true
+      },
+      {
         "id": "ae3fbdeeaee7",
         "protocol": "vless",
         "address": "90.156.255.198",
@@ -120,29 +143,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
-        "udp_supported": true
-      },
-      {
-        "id": "41cb658c78a3",
-        "protocol": "vless",
-        "address": "83.222.23.81",
-        "port": 38065,
-        "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
-        "remark": "🌐 TCP-Reality | @Express_alaki | src @Trick_mobil",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
-        "shortId": "fa",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
         "udp_supported": true
       },
       {
@@ -169,18 +169,18 @@
         "udp_supported": true
       },
       {
-        "id": "507c51a77677",
+        "id": "41cb658c78a3",
         "protocol": "vless",
-        "address": "94.232.247.168",
-        "port": 41360,
-        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
-        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
+        "address": "83.222.23.81",
+        "port": 38065,
+        "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+        "remark": "🌐 TCP-Reality | @Express_alaki | src @Trick_mobil",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
         "fingerprint": "chrome",
-        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
-        "shortId": "1aab45",
+        "publicKey": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
+        "shortId": "fa",
         "spiderX": "",
         "flow": "",
         "path": "",
@@ -188,7 +188,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
         "udp_supported": true
       }
     ],
@@ -354,7 +354,7 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
-        "udp_supported": false
+        "udp_supported": true
       }
     ]
   },
@@ -453,6 +453,29 @@
         "udp_supported": true
       },
       {
+        "id": "507c51a77677",
+        "protocol": "vless",
+        "address": "94.232.247.168",
+        "port": 41360,
+        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "chrome",
+        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+        "shortId": "1aab45",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "udp_supported": true
+      },
+      {
         "id": "ae3fbdeeaee7",
         "protocol": "vless",
         "address": "90.156.255.198",
@@ -473,29 +496,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://8b575b35-3c7c-42b0-ac80-2aa6b0d7717c@90.156.255.198:51114?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U&sid=772e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20TCP-Reality%20%F0%9F%93%81%20%40v2nodes",
-        "udp_supported": true
-      },
-      {
-        "id": "41cb658c78a3",
-        "protocol": "vless",
-        "address": "83.222.23.81",
-        "port": 38065,
-        "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
-        "remark": "🌐 TCP-Reality | @Express_alaki | src @Trick_mobil",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "chrome",
-        "publicKey": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
-        "shortId": "fa",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
         "udp_supported": true
       },
       {
@@ -522,18 +522,18 @@
         "udp_supported": true
       },
       {
-        "id": "507c51a77677",
+        "id": "41cb658c78a3",
         "protocol": "vless",
-        "address": "94.232.247.168",
-        "port": 41360,
-        "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
-        "remark": "𝐉𝐨𝐢𝐧➠@𝘁𝗲𝗹𝗲𝗿𝗮𝘆𝘃𝗽𝗻 :کانال تلگرام⚡️",
+        "address": "83.222.23.81",
+        "port": 38065,
+        "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+        "remark": "🌐 TCP-Reality | @Express_alaki | src @Trick_mobil",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
         "fingerprint": "chrome",
-        "publicKey": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
-        "shortId": "1aab45",
+        "publicKey": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
+        "shortId": "fa",
         "spiderX": "",
         "flow": "",
         "path": "",
@@ -541,7 +541,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://e16a35ea-6715-4e75-9845-d20358bd0876@94.232.247.168:41360?security=reality&encryption=none&pbk=TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=1aab45#%F0%9D%90%89%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7%E2%9E%A0%40%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%86%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%E2%9A%A1%EF%B8%8F",
+        "raw": "vless://4b9063e0-3288-44e9-9aac-80fbfce323a0@83.222.23.81:38065?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo&sid=fa#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Express_alaki%20%7C%20src%20%40Trick_mobil",
         "udp_supported": true
       }
     ],
@@ -685,13 +685,7 @@
         "allowInsecure": "0",
         "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
         "udp_supported": true
-      }
-    ]
-  },
-  "general": {
-    "reality": [],
-    "vless_tls": [],
-    "vless_other": [
+      },
       {
         "id": "220a25021d60",
         "protocol": "vless",
@@ -713,8 +707,13 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
-        "udp_supported": false
+        "udp_supported": true
       }
     ]
+  },
+  "general": {
+    "reality": [],
+    "vless_tls": [],
+    "vless_other": []
   }
 }
