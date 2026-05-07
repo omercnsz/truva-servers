@@ -3,7 +3,7 @@
     "total_working": 15,
     "gaming_count": 15,
     "general_count": 0,
-    "last_check": "2026-05-07 03:06:58.498673"
+    "last_check": "2026-05-07 05:09:55.195999"
   },
   "servers": {
     "reality": [
@@ -311,29 +311,6 @@
         "udp_supported": true
       },
       {
-        "id": "d65e2ad88992",
-        "protocol": "vless",
-        "address": "104.26.13.31",
-        "port": 80,
-        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
-        "remark": "@V2ray_confiig",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "floral-term-d21f.wafajax493.workers.dev",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
-        "udp_supported": true
-      },
-      {
         "id": "220a25021d60",
         "protocol": "vless",
         "address": "104.18.173.174",
@@ -354,6 +331,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
+        "udp_supported": true
+      },
+      {
+        "id": "d65e2ad88992",
+        "protocol": "vless",
+        "address": "104.26.13.31",
+        "port": 80,
+        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
+        "remark": "@V2ray_confiig",
+        "network": "ws",
+        "security": "none",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "floral-term-d21f.wafajax493.workers.dev",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
         "udp_supported": true
       }
     ]
@@ -664,29 +664,6 @@
         "udp_supported": true
       },
       {
-        "id": "d65e2ad88992",
-        "protocol": "vless",
-        "address": "104.26.13.31",
-        "port": 80,
-        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
-        "remark": "@V2ray_confiig",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "floral-term-d21f.wafajax493.workers.dev",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
-        "udp_supported": true
-      },
-      {
         "id": "220a25021d60",
         "protocol": "vless",
         "address": "104.18.173.174",
@@ -707,6 +684,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
+        "udp_supported": true
+      },
+      {
+        "id": "d65e2ad88992",
+        "protocol": "vless",
+        "address": "104.26.13.31",
+        "port": 80,
+        "uuid": "fe665bb7-a558-42bc-9ba7-a59288ee4b93",
+        "remark": "@V2ray_confiig",
+        "network": "ws",
+        "security": "none",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "floral-term-d21f.wafajax493.workers.dev",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?security=none&encryption=none&host=floral-term-d21f.wafajax493.workers.dev&type=ws#%40V2ray_confiig",
         "udp_supported": true
       }
     ]
