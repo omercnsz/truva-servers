@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 7,
-    "gaming_count": 7,
+    "total_working": 9,
+    "gaming_count": 9,
     "general_count": 0,
-    "last_check": "2026-05-24 23:23:33.818897"
+    "last_check": "2026-05-25 00:37:01.362505"
   },
   "servers": {
     "reality": [
@@ -169,9 +169,56 @@
         "allowInsecure": "1",
         "raw": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.200.160.238:2096?path=%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40wangcai2&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&type=ws&allowInsecure=1&sni=sni.jpmj.dev#%40V2ray_confiig",
         "udp_supported": true
+      },
+      {
+        "id": "2b96d838a2e6",
+        "protocol": "vless",
+        "address": "172.67.137.154",
+        "port": 443,
+        "uuid": "49d598ee-4dfc-4001-95ca-99a5b6002e3c",
+        "remark": "🇨🇦 WS-TLS | @Express_alaki | src @DeamNet_proxy",
+        "network": "ws",
+        "security": "tls",
+        "sni": "tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev",
+        "fingerprint": "chrome",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/ws",
+        "host": "tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://49d598ee-4dfc-4001-95ca-99a5b6002e3c@172.67.137.154:443?encryption=none&security=tls&sni=tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev&fp=chrome&insecure=1&type=ws&host=tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev&path=%2Fws#%F0%9F%87%A8%F0%9F%87%A6%20WS-TLS%20%7C%20%40Express_alaki%20%7C%20src%20%40DeamNet_proxy",
+        "udp_supported": true
       }
     ],
-    "vless_other": []
+    "vless_other": [
+      {
+        "id": "220a25021d60",
+        "protocol": "vless",
+        "address": "104.18.173.174",
+        "port": 80,
+        "uuid": "53342b53-157e-4475-9f3a-40439434e689",
+        "remark": "کانال تلگرام : Free_VPN_CH@",
+        "network": "ws",
+        "security": "none",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/?ed=2048",
+        "host": "c.iamdt.dpdns.org",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
+        "udp_supported": true
+      }
+    ]
   },
   "gaming": {
     "reality": [
@@ -337,9 +384,56 @@
         "allowInsecure": "1",
         "raw": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.200.160.238:2096?path=%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40wangcai2&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&type=ws&allowInsecure=1&sni=sni.jpmj.dev#%40V2ray_confiig",
         "udp_supported": true
+      },
+      {
+        "id": "2b96d838a2e6",
+        "protocol": "vless",
+        "address": "172.67.137.154",
+        "port": 443,
+        "uuid": "49d598ee-4dfc-4001-95ca-99a5b6002e3c",
+        "remark": "🇨🇦 WS-TLS | @Express_alaki | src @DeamNet_proxy",
+        "network": "ws",
+        "security": "tls",
+        "sni": "tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev",
+        "fingerprint": "chrome",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/ws",
+        "host": "tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://49d598ee-4dfc-4001-95ca-99a5b6002e3c@172.67.137.154:443?encryption=none&security=tls&sni=tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev&fp=chrome&insecure=1&type=ws&host=tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev&path=%2Fws#%F0%9F%87%A8%F0%9F%87%A6%20WS-TLS%20%7C%20%40Express_alaki%20%7C%20src%20%40DeamNet_proxy",
+        "udp_supported": true
       }
     ],
-    "vless_other": []
+    "vless_other": [
+      {
+        "id": "220a25021d60",
+        "protocol": "vless",
+        "address": "104.18.173.174",
+        "port": 80,
+        "uuid": "53342b53-157e-4475-9f3a-40439434e689",
+        "remark": "کانال تلگرام : Free_VPN_CH@",
+        "network": "ws",
+        "security": "none",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/?ed=2048",
+        "host": "c.iamdt.dpdns.org",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&security=none&type=ws&host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40",
+        "udp_supported": true
+      }
+    ]
   },
   "general": {
     "reality": [],
