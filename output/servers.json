@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 14,
-    "gaming_count": 14,
+    "total_working": 13,
+    "gaming_count": 13,
     "general_count": 0,
-    "last_check": "2026-06-05 19:11:32.701684"
+    "last_check": "2026-06-05 20:12:40.366723"
   },
   "servers": {
     "reality": [
@@ -190,29 +190,6 @@
         "allowInsecure": "0",
         "raw": "vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=f71c22#INT",
         "udp_supported": true
-      },
-      {
-        "id": "a8dcc4230078",
-        "protocol": "vless",
-        "address": "144.31.131.33",
-        "port": 443,
-        "uuid": "ae852d97-85f5-45cf-82a4-254eba345480",
-        "remark": "Join+Telegram:@Farah_VPN",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "cdn.cdnjst.org",
-        "fingerprint": "chrome",
-        "publicKey": "djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc",
-        "shortId": "a120",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&security=reality&sid=a120&sni=cdn.cdnjst.org&type=tcp#Join+Telegram:@Farah_VPN",
-        "udp_supported": true
       }
     ],
     "vless_tls": [
@@ -288,29 +265,6 @@
         "udp_supported": true
       },
       {
-        "id": "96b8c305cc52",
-        "protocol": "vless",
-        "address": "152.228.162.19",
-        "port": 80,
-        "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
-        "remark": "FR",
-        "network": "ws",
-        "security": "",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/vless/",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://f5c47e9c-914a-4a91-a81e-a5a77bc10fc1@152.228.162.19:80/?type=ws&encryption=none&flow=&path=/vless/#FR",
-        "udp_supported": true
-      },
-      {
         "id": "b4b06acb762f",
         "protocol": "vless",
         "address": "57.129.41.216",
@@ -331,6 +285,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://7d74eae4-8a06-4306-a923-ad686f30bf26@57.129.41.216:80?encryption=none&host=OV-Germany1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#Join+Telegram:@Farah_VPN",
+        "udp_supported": true
+      },
+      {
+        "id": "96b8c305cc52",
+        "protocol": "vless",
+        "address": "152.228.162.19",
+        "port": 80,
+        "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
+        "remark": "FR",
+        "network": "ws",
+        "security": "",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/vless/",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://f5c47e9c-914a-4a91-a81e-a5a77bc10fc1@152.228.162.19:80/?type=ws&encryption=none&flow=&path=/vless/#FR",
         "udp_supported": true
       }
     ]
@@ -520,29 +497,6 @@
         "allowInsecure": "0",
         "raw": "vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=f71c22#INT",
         "udp_supported": true
-      },
-      {
-        "id": "a8dcc4230078",
-        "protocol": "vless",
-        "address": "144.31.131.33",
-        "port": 443,
-        "uuid": "ae852d97-85f5-45cf-82a4-254eba345480",
-        "remark": "Join+Telegram:@Farah_VPN",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "cdn.cdnjst.org",
-        "fingerprint": "chrome",
-        "publicKey": "djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc",
-        "shortId": "a120",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&security=reality&sid=a120&sni=cdn.cdnjst.org&type=tcp#Join+Telegram:@Farah_VPN",
-        "udp_supported": true
       }
     ],
     "vless_tls": [
@@ -618,29 +572,6 @@
         "udp_supported": true
       },
       {
-        "id": "96b8c305cc52",
-        "protocol": "vless",
-        "address": "152.228.162.19",
-        "port": 80,
-        "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
-        "remark": "FR",
-        "network": "ws",
-        "security": "",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/vless/",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://f5c47e9c-914a-4a91-a81e-a5a77bc10fc1@152.228.162.19:80/?type=ws&encryption=none&flow=&path=/vless/#FR",
-        "udp_supported": true
-      },
-      {
         "id": "b4b06acb762f",
         "protocol": "vless",
         "address": "57.129.41.216",
@@ -661,6 +592,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://7d74eae4-8a06-4306-a923-ad686f30bf26@57.129.41.216:80?encryption=none&host=OV-Germany1.09vpn.com&path=%2Fvless%2F&security=none&type=ws#Join+Telegram:@Farah_VPN",
+        "udp_supported": true
+      },
+      {
+        "id": "96b8c305cc52",
+        "protocol": "vless",
+        "address": "152.228.162.19",
+        "port": 80,
+        "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
+        "remark": "FR",
+        "network": "ws",
+        "security": "",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/vless/",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://f5c47e9c-914a-4a91-a81e-a5a77bc10fc1@152.228.162.19:80/?type=ws&encryption=none&flow=&path=/vless/#FR",
         "udp_supported": true
       }
     ]
