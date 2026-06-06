@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 26,
+    "total_working": 25,
     "gaming_count": 20,
-    "general_count": 0,
-    "last_check": "2026-06-06 23:26:28.009656"
+    "general_count": 1,
+    "last_check": "2026-06-06 23:52:44.300822"
   },
   "servers": {
     "reality": [
@@ -236,6 +236,29 @@
         "allowInsecure": "0",
         "raw": "vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=f71c22#INT",
         "udp_supported": true
+      },
+      {
+        "id": "58f2583a2b00",
+        "protocol": "vless",
+        "address": "nid2.pink-perfect.ru",
+        "port": 443,
+        "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+        "remark": "Join+Telegram:@Farah_VPN",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "nid2.pink-perfect.ru",
+        "fingerprint": "chrome",
+        "publicKey": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
+        "shortId": "8ffa160e608bf539",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@nid2.pink-perfect.ru:443?security=reality&encryption=none&pbk=DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=nid2.pink-perfect.ru&sid=8ffa160e608bf539#Join+Telegram:@Farah_VPN",
+        "udp_supported": false
       }
     ],
     "vless_tls": [
@@ -940,7 +963,31 @@
     "vless_other": []
   },
   "general": {
-    "reality": [],
+    "reality": [
+      {
+        "id": "58f2583a2b00",
+        "protocol": "vless",
+        "address": "nid2.pink-perfect.ru",
+        "port": 443,
+        "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+        "remark": "Join+Telegram:@Farah_VPN",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "nid2.pink-perfect.ru",
+        "fingerprint": "chrome",
+        "publicKey": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
+        "shortId": "8ffa160e608bf539",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://5d8fcd24-9634-4dd7-845c-3dc2d6291942@nid2.pink-perfect.ru:443?security=reality&encryption=none&pbk=DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=nid2.pink-perfect.ru&sid=8ffa160e608bf539#Join+Telegram:@Farah_VPN",
+        "udp_supported": false
+      }
+    ],
     "vless_tls": [],
     "vless_other": []
   }
