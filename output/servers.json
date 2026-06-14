@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 35,
+    "total_working": 33,
     "gaming_count": 20,
-    "general_count": 0,
-    "last_check": "2026-06-14 01:52:00.123845"
+    "general_count": 1,
+    "last_check": "2026-06-14 03:12:46.016884"
   },
   "servers": {
     "reality": [
@@ -31,29 +31,6 @@
         "udp_supported": true
       },
       {
-        "id": "4512e236ee69",
-        "protocol": "vless",
-        "address": "15.204.97.198",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "Join+Telegram:@Farah_VPN",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#Join+Telegram:@Farah_VPN",
-        "udp_supported": true
-      },
-      {
         "id": "ba4b740b1814",
         "protocol": "vless",
         "address": "15.204.97.216",
@@ -282,6 +259,29 @@
         "allowInsecure": "0",
         "raw": "vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=f71c22#INT",
         "udp_supported": true
+      },
+      {
+        "id": "4512e236ee69",
+        "protocol": "vless",
+        "address": "15.204.97.198",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "Join+Telegram:@Farah_VPN",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#Join+Telegram:@Farah_VPN",
+        "udp_supported": false
       }
     ],
     "vless_tls": [
@@ -378,29 +378,6 @@
         "udp_supported": true
       },
       {
-        "id": "72ae4c49d7bd",
-        "protocol": "vless",
-        "address": "46.229.243.71",
-        "port": 8443,
-        "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-        "remark": "@W570W",
-        "network": "tcp",
-        "security": "tls",
-        "sni": "cdn7-09.vk-cdnvideo.com",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.71:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
-        "udp_supported": true
-      },
-      {
         "id": "c4b747e0dc2c",
         "protocol": "vless",
         "address": "cdn3-87.vk-cdnvideo.com",
@@ -424,9 +401,9 @@
         "udp_supported": true
       },
       {
-        "id": "180b67e2e8b0",
+        "id": "72ae4c49d7bd",
         "protocol": "vless",
-        "address": "77.74.123.171",
+        "address": "46.229.243.71",
         "port": 8443,
         "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
         "remark": "@W570W",
@@ -443,7 +420,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.171:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
+        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.71:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
         "udp_supported": true
       },
       {
@@ -468,9 +445,56 @@
         "allowInsecure": "0",
         "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@162.249.126.70:8443?encryption=none&fp=chrome&security=tls&sni=cdn9-33.vk-cdnvideo.com&type=tcp#Join+Telegram:@Farah_VPN",
         "udp_supported": true
+      },
+      {
+        "id": "180b67e2e8b0",
+        "protocol": "vless",
+        "address": "77.74.123.171",
+        "port": 8443,
+        "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+        "remark": "@W570W",
+        "network": "tcp",
+        "security": "tls",
+        "sni": "cdn7-09.vk-cdnvideo.com",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.171:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
+        "udp_supported": true
       }
     ],
-    "vless_other": []
+    "vless_other": [
+      {
+        "id": "8a2746e0da63",
+        "protocol": "vless",
+        "address": "sca28.myfymain.com",
+        "port": 8880,
+        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+        "remark": "",
+        "network": "grpc",
+        "security": "",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca28.myfymain.com:8880?mode=gun&security=&encryption=none&type=grpc#",
+        "udp_supported": true
+      }
+    ]
   },
   "gaming": {
     "reality": [
@@ -498,29 +522,6 @@
         "udp_supported": true
       },
       {
-        "id": "4512e236ee69",
-        "protocol": "vless",
-        "address": "15.204.97.198",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "Join+Telegram:@Farah_VPN",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#Join+Telegram:@Farah_VPN",
-        "udp_supported": true
-      },
-      {
         "id": "ba4b740b1814",
         "protocol": "vless",
         "address": "15.204.97.216",
@@ -845,29 +846,6 @@
         "udp_supported": true
       },
       {
-        "id": "72ae4c49d7bd",
-        "protocol": "vless",
-        "address": "46.229.243.71",
-        "port": 8443,
-        "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-        "remark": "@W570W",
-        "network": "tcp",
-        "security": "tls",
-        "sni": "cdn7-09.vk-cdnvideo.com",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.71:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
-        "udp_supported": true
-      },
-      {
         "id": "c4b747e0dc2c",
         "protocol": "vless",
         "address": "cdn3-87.vk-cdnvideo.com",
@@ -891,9 +869,9 @@
         "udp_supported": true
       },
       {
-        "id": "180b67e2e8b0",
+        "id": "72ae4c49d7bd",
         "protocol": "vless",
-        "address": "77.74.123.171",
+        "address": "46.229.243.71",
         "port": 8443,
         "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
         "remark": "@W570W",
@@ -910,7 +888,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.171:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
+        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.71:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
         "udp_supported": true
       },
       {
@@ -935,12 +913,83 @@
         "allowInsecure": "0",
         "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@162.249.126.70:8443?encryption=none&fp=chrome&security=tls&sni=cdn9-33.vk-cdnvideo.com&type=tcp#Join+Telegram:@Farah_VPN",
         "udp_supported": true
+      },
+      {
+        "id": "180b67e2e8b0",
+        "protocol": "vless",
+        "address": "77.74.123.171",
+        "port": 8443,
+        "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+        "remark": "@W570W",
+        "network": "tcp",
+        "security": "tls",
+        "sni": "cdn7-09.vk-cdnvideo.com",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.171:8443?encryption=none&security=tls&sni=cdn7-09.vk-cdnvideo.com&type=tcp&headerType=none#%40W570W",
+        "udp_supported": true
       }
     ],
-    "vless_other": []
+    "vless_other": [
+      {
+        "id": "8a2746e0da63",
+        "protocol": "vless",
+        "address": "sca28.myfymain.com",
+        "port": 8880,
+        "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+        "remark": "",
+        "network": "grpc",
+        "security": "",
+        "sni": "",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca28.myfymain.com:8880?mode=gun&security=&encryption=none&type=grpc#",
+        "udp_supported": true
+      }
+    ]
   },
   "general": {
-    "reality": [],
+    "reality": [
+      {
+        "id": "4512e236ee69",
+        "protocol": "vless",
+        "address": "15.204.97.198",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "Join+Telegram:@Farah_VPN",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#Join+Telegram:@Farah_VPN",
+        "udp_supported": false
+      }
+    ],
     "vless_tls": [],
     "vless_other": []
   }
