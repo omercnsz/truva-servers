@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 63,
+    "total_working": 59,
     "gaming_count": 20,
-    "general_count": 1,
-    "last_check": "2026-07-15 00:23:50.771690"
+    "general_count": 2,
+    "last_check": "2026-07-15 01:34:40.485735"
   },
   "servers": {
     "reality": [
@@ -284,29 +284,6 @@
         "udp_supported": true
       },
       {
-        "id": "4512e236ee69",
-        "protocol": "vless",
-        "address": "15.204.97.198",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?security=reality&type=tcp&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#",
-        "udp_supported": true
-      },
-      {
         "id": "d0a8932c9138",
         "protocol": "vless",
         "address": "cf380c40b2993608.nimaghaffarzadeh.ir",
@@ -397,32 +374,32 @@
         "allowInsecure": "0",
         "raw": "vless://a1750ade-801f-4e3e-a5d2-de825771205d@151.80.147.30:443?security=reality&encryption=none&pbk=Ij3Iz1jqht6zLOy9uI0iusTy4n1oIr7gpgTwRTtA8kY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speedtest.net&sid=42b395462da31c0e#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%95%8A%EF%B8%8F",
         "udp_supported": true
-      }
-    ],
-    "vless_tls": [
+      },
       {
-        "id": "5aeeb0241b76",
+        "id": "4512e236ee69",
         "protocol": "vless",
-        "address": "172.64.53.65",
-        "port": 443,
-        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+        "address": "15.204.97.198",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
         "remark": "",
-        "network": "ws",
-        "security": "tls",
-        "sni": "t1s1.rittbo.kdns.fr",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
         "spiderX": "",
-        "flow": "",
-        "path": "/fp",
-        "host": "t1s1.rittbo.kdns.fr",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@172.64.53.65:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#",
-        "udp_supported": true
-      },
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?security=reality&type=tcp&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#",
+        "udp_supported": false
+      }
+    ],
+    "vless_tls": [
       {
         "id": "f4e5e9862fd4",
         "protocol": "vless",
@@ -447,6 +424,29 @@
         "udp_supported": true
       },
       {
+        "id": "5aeeb0241b76",
+        "protocol": "vless",
+        "address": "172.64.53.65",
+        "port": 443,
+        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+        "remark": "",
+        "network": "ws",
+        "security": "tls",
+        "sni": "t1s1.rittbo.kdns.fr",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/fp",
+        "host": "t1s1.rittbo.kdns.fr",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@172.64.53.65:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#",
+        "udp_supported": true
+      },
+      {
         "id": "16d1ed2047a1",
         "protocol": "vless",
         "address": "104.16.72.50",
@@ -468,31 +468,54 @@
         "allowInsecure": "0",
         "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.16.72.50:443?encryption=none&type=ws&security=tls&path=%2Ffp&host=t1s1.rittbo.kdns.fr&sni=t1s1.rittbo.kdns.fr&insecure=0&allowInsecure=0#",
         "udp_supported": true
+      },
+      {
+        "id": "eaa8798bdd25",
+        "protocol": "vless",
+        "address": "104.18.43.174",
+        "port": 443,
+        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+        "remark": "🟡t.me/iProxyChannel 8",
+        "network": "ws",
+        "security": "tls",
+        "sni": "t1s1.rittbo.kdns.fr",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "t1s1.rittbo.kdns.fr",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.18.43.174:443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#%F0%9F%9F%A1t.me%2FiProxyChannel%208",
+        "udp_supported": false
       }
     ],
     "vless_other": [
       {
-        "id": "dd9ec0811b9e",
+        "id": "292d4fd0e33f",
         "protocol": "vless",
-        "address": "download.yunzhongzhuan.com",
-        "port": 8880,
-        "uuid": "0bd6aa8d-3bdb-4fa3-893e-75a844e2e409",
-        "remark": "🔵t.me/iProxyChannel 14",
-        "network": "ws",
-        "security": "",
+        "address": "140.233.177.250",
+        "port": 55715,
+        "uuid": "914f97ee-1e5e-475d-9f04-fb93ef8585e7",
+        "remark": "@one_shop_official",
+        "network": "tcp",
+        "security": "none",
         "sni": "",
         "fingerprint": "",
         "publicKey": "",
         "shortId": "",
         "spiderX": "",
         "flow": "",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-        "host": "wispy-cake-ec69.193-bc6.workers.dev",
+        "path": "",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://0bd6aa8d-3bdb-4fa3-893e-75a844e2e409@download.yunzhongzhuan.com:8880?path=%2Fpyip%3DProxyIP.JP.CMLiussss.net&security=&encryption=none&host=wispy-cake-ec69.193-bc6.workers.dev&type=ws#%F0%9F%94%B5t.me%2FiProxyChannel%2014",
-        "udp_supported": false
+        "raw": "vless://914f97ee-1e5e-475d-9f04-fb93ef8585e7@140.233.177.250:55715?security=none&encryption=none&headerType=none&type=tcp#%40one_shop_official",
+        "udp_supported": true
       }
     ]
   },
@@ -775,29 +798,6 @@
         "udp_supported": true
       },
       {
-        "id": "4512e236ee69",
-        "protocol": "vless",
-        "address": "15.204.97.198",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "chrome",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?security=reality&type=tcp&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#",
-        "udp_supported": true
-      },
-      {
         "id": "d0a8932c9138",
         "protocol": "vless",
         "address": "cf380c40b2993608.nimaghaffarzadeh.ir",
@@ -892,29 +892,6 @@
     ],
     "vless_tls": [
       {
-        "id": "5aeeb0241b76",
-        "protocol": "vless",
-        "address": "172.64.53.65",
-        "port": 443,
-        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-        "remark": "",
-        "network": "ws",
-        "security": "tls",
-        "sni": "t1s1.rittbo.kdns.fr",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/fp",
-        "host": "t1s1.rittbo.kdns.fr",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@172.64.53.65:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#",
-        "udp_supported": true
-      },
-      {
         "id": "f4e5e9862fd4",
         "protocol": "vless",
         "address": "104.18.45.104",
@@ -935,6 +912,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.18.45.104:443?path=%2Ffp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#%E2%9A%AAWi-Fi%20t.me%2FiProxyChannel%202",
+        "udp_supported": true
+      },
+      {
+        "id": "5aeeb0241b76",
+        "protocol": "vless",
+        "address": "172.64.53.65",
+        "port": 443,
+        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+        "remark": "",
+        "network": "ws",
+        "security": "tls",
+        "sni": "t1s1.rittbo.kdns.fr",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/fp",
+        "host": "t1s1.rittbo.kdns.fr",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@172.64.53.65:443?path=/fp&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#",
         "udp_supported": true
       },
       {
@@ -961,35 +961,83 @@
         "udp_supported": true
       }
     ],
-    "vless_other": []
-  },
-  "general": {
-    "reality": [],
-    "vless_tls": [],
     "vless_other": [
       {
-        "id": "dd9ec0811b9e",
+        "id": "292d4fd0e33f",
         "protocol": "vless",
-        "address": "download.yunzhongzhuan.com",
-        "port": 8880,
-        "uuid": "0bd6aa8d-3bdb-4fa3-893e-75a844e2e409",
-        "remark": "🔵t.me/iProxyChannel 14",
-        "network": "ws",
-        "security": "",
+        "address": "140.233.177.250",
+        "port": 55715,
+        "uuid": "914f97ee-1e5e-475d-9f04-fb93ef8585e7",
+        "remark": "@one_shop_official",
+        "network": "tcp",
+        "security": "none",
         "sni": "",
         "fingerprint": "",
         "publicKey": "",
         "shortId": "",
         "spiderX": "",
         "flow": "",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-        "host": "wispy-cake-ec69.193-bc6.workers.dev",
+        "path": "",
+        "host": "",
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://0bd6aa8d-3bdb-4fa3-893e-75a844e2e409@download.yunzhongzhuan.com:8880?path=%2Fpyip%3DProxyIP.JP.CMLiussss.net&security=&encryption=none&host=wispy-cake-ec69.193-bc6.workers.dev&type=ws#%F0%9F%94%B5t.me%2FiProxyChannel%2014",
-        "udp_supported": false
+        "raw": "vless://914f97ee-1e5e-475d-9f04-fb93ef8585e7@140.233.177.250:55715?security=none&encryption=none&headerType=none&type=tcp#%40one_shop_official",
+        "udp_supported": true
       }
     ]
+  },
+  "general": {
+    "reality": [
+      {
+        "id": "4512e236ee69",
+        "protocol": "vless",
+        "address": "15.204.97.198",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "chrome",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?security=reality&type=tcp&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#",
+        "udp_supported": false
+      }
+    ],
+    "vless_tls": [
+      {
+        "id": "eaa8798bdd25",
+        "protocol": "vless",
+        "address": "104.18.43.174",
+        "port": 443,
+        "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+        "remark": "🟡t.me/iProxyChannel 8",
+        "network": "ws",
+        "security": "tls",
+        "sni": "t1s1.rittbo.kdns.fr",
+        "fingerprint": "",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "t1s1.rittbo.kdns.fr",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.18.43.174:443?path=%2F&security=tls&encryption=none&insecure=0&host=t1s1.rittbo.kdns.fr&type=ws&allowInsecure=0&sni=t1s1.rittbo.kdns.fr#%F0%9F%9F%A1t.me%2FiProxyChannel%208",
+        "udp_supported": false
+      }
+    ],
+    "vless_other": []
   }
 }
