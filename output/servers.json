@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 41,
+    "total_working": 30,
     "gaming_count": 20,
-    "general_count": 0,
-    "last_check": "2026-07-28 23:57:20.925411"
+    "general_count": 1,
+    "last_check": "2026-07-29 02:12:37.079687"
   },
   "servers": {
     "reality": [
@@ -146,6 +146,29 @@
         "udp_supported": true
       },
       {
+        "id": "05f3b95ff915",
+        "protocol": "vless",
+        "address": "144.124.246.55",
+        "port": 443,
+        "uuid": "40de6299-d792-4868-8a82-411ead0aa943",
+        "remark": "V2rayByUnknown",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "gateway.icloud.com",
+        "fingerprint": "",
+        "publicKey": "L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww",
+        "shortId": "ed7b9bdfedb9b8e5",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&security=reality&sid=ed7b9bdfedb9b8e5&sni=gateway.icloud.com&type=tcp#V2rayByUnknown",
+        "udp_supported": true
+      },
+      {
         "id": "e69d885b4ad0",
         "protocol": "vless",
         "address": "jdwadgw.cvewfjg.shop",
@@ -189,29 +212,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://7856eb14-06d6-423a-b4a6-353b3ce5c51a@217.60.23.230:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=IY7z4YneuuMK6nsOyqxHPC30hLR4CaxBVHD-SpRk2H0&security=reality&sid=377209f7cecf2f7d&sni=site.rumedia-cdn.com&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ANL",
-        "udp_supported": true
-      },
-      {
-        "id": "05f3b95ff915",
-        "protocol": "vless",
-        "address": "144.124.246.55",
-        "port": 443,
-        "uuid": "40de6299-d792-4868-8a82-411ead0aa943",
-        "remark": "V2rayByUnknown",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "gateway.icloud.com",
-        "fingerprint": "",
-        "publicKey": "L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww",
-        "shortId": "ed7b9bdfedb9b8e5",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&security=reality&sid=ed7b9bdfedb9b8e5&sni=gateway.icloud.com&type=tcp#V2rayByUnknown",
         "udp_supported": true
       },
       {
@@ -374,6 +374,29 @@
         "allowInsecure": "0",
         "raw": "vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@meow-warsaw.nethcloud.top:443?security=reality&encryption=none&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&host=LevikoConfig&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.wikihow.com#%F0%9F%87%B5%F0%9F%87%B1%5B%40LevikoConfig%5D%20vless-PL-14954623",
         "udp_supported": true
+      },
+      {
+        "id": "8e5b0ab4e2e8",
+        "protocol": "vless",
+        "address": "51.91.158.180",
+        "port": 443,
+        "uuid": "7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21",
+        "remark": "configfa  VL-TCP-  FR 167ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.speedtest.net",
+        "fingerprint": "firefox",
+        "publicKey": "wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM",
+        "shortId": "9a4c7d2f8e1b6a3c",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21@51.91.158.180:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.speedtest.net&fp=firefox&insecure=1&allowInsecure=1&pbk=wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM&sid=9a4c7d2f8e1b6a3c&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20FR%20167ms",
+        "udp_supported": false
       }
     ],
     "vless_tls": [
@@ -614,6 +637,29 @@
         "udp_supported": true
       },
       {
+        "id": "05f3b95ff915",
+        "protocol": "vless",
+        "address": "144.124.246.55",
+        "port": 443,
+        "uuid": "40de6299-d792-4868-8a82-411ead0aa943",
+        "remark": "V2rayByUnknown",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "gateway.icloud.com",
+        "fingerprint": "",
+        "publicKey": "L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww",
+        "shortId": "ed7b9bdfedb9b8e5",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&security=reality&sid=ed7b9bdfedb9b8e5&sni=gateway.icloud.com&type=tcp#V2rayByUnknown",
+        "udp_supported": true
+      },
+      {
         "id": "e69d885b4ad0",
         "protocol": "vless",
         "address": "jdwadgw.cvewfjg.shop",
@@ -657,29 +703,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://7856eb14-06d6-423a-b4a6-353b3ce5c51a@217.60.23.230:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=IY7z4YneuuMK6nsOyqxHPC30hLR4CaxBVHD-SpRk2H0&security=reality&sid=377209f7cecf2f7d&sni=site.rumedia-cdn.com&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ANL",
-        "udp_supported": true
-      },
-      {
-        "id": "05f3b95ff915",
-        "protocol": "vless",
-        "address": "144.124.246.55",
-        "port": 443,
-        "uuid": "40de6299-d792-4868-8a82-411ead0aa943",
-        "remark": "V2rayByUnknown",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "gateway.icloud.com",
-        "fingerprint": "",
-        "publicKey": "L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww",
-        "shortId": "ed7b9bdfedb9b8e5",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&security=reality&sid=ed7b9bdfedb9b8e5&sni=gateway.icloud.com&type=tcp#V2rayByUnknown",
         "udp_supported": true
       },
       {
@@ -942,7 +965,31 @@
     ]
   },
   "general": {
-    "reality": [],
+    "reality": [
+      {
+        "id": "8e5b0ab4e2e8",
+        "protocol": "vless",
+        "address": "51.91.158.180",
+        "port": 443,
+        "uuid": "7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21",
+        "remark": "configfa  VL-TCP-  FR 167ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.speedtest.net",
+        "fingerprint": "firefox",
+        "publicKey": "wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM",
+        "shortId": "9a4c7d2f8e1b6a3c",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21@51.91.158.180:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.speedtest.net&fp=firefox&insecure=1&allowInsecure=1&pbk=wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM&sid=9a4c7d2f8e1b6a3c&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20FR%20167ms",
+        "udp_supported": false
+      }
+    ],
     "vless_tls": [],
     "vless_other": []
   }
