@@ -3,7 +3,7 @@
     "total_working": 9,
     "gaming_count": 9,
     "general_count": 0,
-    "last_check": "2026-08-06 15:43:55.854932"
+    "last_check": "2026-08-06 23:56:58.230539"
   },
   "servers": {
     "reality": [
@@ -77,29 +77,6 @@
         "udp_supported": true
       },
       {
-        "id": "d230e1c8a9e8",
-        "protocol": "vless",
-        "address": "141.98.118.70",
-        "port": 443,
-        "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
-        "remark": "configfa  VL-XHTTP-  XX down",
-        "network": "xhttp",
-        "security": "reality",
-        "sni": "www.google.com",
-        "fingerprint": "",
-        "publicKey": "LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ",
-        "shortId": "44",
-        "spiderX": "",
-        "flow": "",
-        "path": "/",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44#configfa%20%20VL-XHTTP-%20%20XX%20down",
-        "udp_supported": true
-      },
-      {
         "id": "39c51dd6b988",
         "protocol": "vless",
         "address": "cdn.netraidly.ru",
@@ -143,6 +120,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
+        "id": "d230e1c8a9e8",
+        "protocol": "vless",
+        "address": "141.98.118.70",
+        "port": 443,
+        "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
+        "remark": "configfa  VL-XHTTP-  XX down",
+        "network": "xhttp",
+        "security": "reality",
+        "sni": "www.google.com",
+        "fingerprint": "",
+        "publicKey": "LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ",
+        "shortId": "44",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44#configfa%20%20VL-XHTTP-%20%20XX%20down",
         "udp_supported": true
       }
     ],
@@ -292,29 +292,6 @@
         "udp_supported": true
       },
       {
-        "id": "d230e1c8a9e8",
-        "protocol": "vless",
-        "address": "141.98.118.70",
-        "port": 443,
-        "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
-        "remark": "configfa  VL-XHTTP-  XX down",
-        "network": "xhttp",
-        "security": "reality",
-        "sni": "www.google.com",
-        "fingerprint": "",
-        "publicKey": "LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ",
-        "shortId": "44",
-        "spiderX": "",
-        "flow": "",
-        "path": "/",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44#configfa%20%20VL-XHTTP-%20%20XX%20down",
-        "udp_supported": true
-      },
-      {
         "id": "39c51dd6b988",
         "protocol": "vless",
         "address": "cdn.netraidly.ru",
@@ -358,6 +335,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
+        "id": "d230e1c8a9e8",
+        "protocol": "vless",
+        "address": "141.98.118.70",
+        "port": 443,
+        "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
+        "remark": "configfa  VL-XHTTP-  XX down",
+        "network": "xhttp",
+        "security": "reality",
+        "sni": "www.google.com",
+        "fingerprint": "",
+        "publicKey": "LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ",
+        "shortId": "44",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "1",
+        "raw": "vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44#configfa%20%20VL-XHTTP-%20%20XX%20down",
         "udp_supported": true
       }
     ],
