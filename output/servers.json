@@ -1,35 +1,12 @@
 {
   "metadata": {
-    "total_working": 9,
-    "gaming_count": 9,
+    "total_working": 8,
+    "gaming_count": 8,
     "general_count": 0,
-    "last_check": "2026-08-07 22:07:18.302409"
+    "last_check": "2026-08-07 23:06:43.244811"
   },
   "servers": {
     "reality": [
-      {
-        "id": "174e41916333",
-        "protocol": "vless",
-        "address": "free.us2.laodavip.com",
-        "port": 443,
-        "uuid": "da54c327-4e3f-483c-9c48-705a6d739ab6",
-        "remark": "configfa  VL-TCP-  US 138ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "free.us2.laodavip.com",
-        "fingerprint": "chrome",
-        "publicKey": "fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA",
-        "shortId": "d4e718a6ea7cdb2d",
-        "spiderX": "/",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://da54c327-4e3f-483c-9c48-705a6d739ab6@free.us2.laodavip.com:443?encryption=none&type=tcp&security=reality&sni=free.us2.laodavip.com&fp=chrome&pbk=fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA&sid=d4e718a6ea7cdb2d&spx=%2F&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20US%20138ms",
-        "udp_supported": true
-      },
       {
         "id": "fcc7c08f96fe",
         "protocol": "vless",
@@ -221,29 +198,6 @@
   },
   "gaming": {
     "reality": [
-      {
-        "id": "174e41916333",
-        "protocol": "vless",
-        "address": "free.us2.laodavip.com",
-        "port": 443,
-        "uuid": "da54c327-4e3f-483c-9c48-705a6d739ab6",
-        "remark": "configfa  VL-TCP-  US 138ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "free.us2.laodavip.com",
-        "fingerprint": "chrome",
-        "publicKey": "fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA",
-        "shortId": "d4e718a6ea7cdb2d",
-        "spiderX": "/",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://da54c327-4e3f-483c-9c48-705a6d739ab6@free.us2.laodavip.com:443?encryption=none&type=tcp&security=reality&sni=free.us2.laodavip.com&fp=chrome&pbk=fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA&sid=d4e718a6ea7cdb2d&spx=%2F&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20US%20138ms",
-        "udp_supported": true
-      },
       {
         "id": "fcc7c08f96fe",
         "protocol": "vless",
