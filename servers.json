@@ -3,7 +3,7 @@
     "total_working": 5,
     "gaming_count": 5,
     "general_count": 0,
-    "last_check": "2026-08-08 22:22:44.593949"
+    "last_check": "2026-08-08 23:22:41.317442"
   },
   "servers": {
     "reality": [
@@ -54,29 +54,6 @@
         "udp_supported": true
       },
       {
-        "id": "e69d885b4ad0",
-        "protocol": "vless",
-        "address": "jdwadgw.cvewfjg.shop",
-        "port": 443,
-        "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
-        "remark": "@Daily_Configs : کانال تلگرام",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
-        "shortId": "7a76f3c4b9dd",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "udp_supported": true
-      },
-      {
         "id": "d56a11c120ce",
         "protocol": "vless",
         "address": "159.195.44.159",
@@ -97,6 +74,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
+        "id": "e69d885b4ad0",
+        "protocol": "vless",
+        "address": "jdwadgw.cvewfjg.shop",
+        "port": 443,
+        "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+        "remark": "@Daily_Configs : کانال تلگرام",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.cloudflare.com",
+        "fingerprint": "",
+        "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+        "shortId": "7a76f3c4b9dd",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
         "udp_supported": true
       },
       {
@@ -175,29 +175,6 @@
         "udp_supported": true
       },
       {
-        "id": "e69d885b4ad0",
-        "protocol": "vless",
-        "address": "jdwadgw.cvewfjg.shop",
-        "port": 443,
-        "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
-        "remark": "@Daily_Configs : کانال تلگرام",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
-        "shortId": "7a76f3c4b9dd",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "udp_supported": true
-      },
-      {
         "id": "d56a11c120ce",
         "protocol": "vless",
         "address": "159.195.44.159",
@@ -218,6 +195,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
+        "id": "e69d885b4ad0",
+        "protocol": "vless",
+        "address": "jdwadgw.cvewfjg.shop",
+        "port": 443,
+        "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+        "remark": "@Daily_Configs : کانال تلگرام",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.cloudflare.com",
+        "fingerprint": "",
+        "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+        "shortId": "7a76f3c4b9dd",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
         "udp_supported": true
       },
       {
