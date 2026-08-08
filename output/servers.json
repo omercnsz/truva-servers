@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 8,
+    "total_working": 7,
     "gaming_count": 7,
-    "general_count": 1,
-    "last_check": "2026-08-08 08:37:47.883808"
+    "general_count": 0,
+    "last_check": "2026-08-08 09:35:10.825460"
   },
   "servers": {
     "reality": [
@@ -98,55 +98,9 @@
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
         "udp_supported": true
-      },
-      {
-        "id": "39c51dd6b988",
-        "protocol": "vless",
-        "address": "cdn.netraidly.ru",
-        "port": 40443,
-        "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-        "remark": "configfa  VL-TCP-  XX 360ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "deepl.com",
-        "fingerprint": "qq",
-        "publicKey": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-        "shortId": "c84f",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU&sid=c84f&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%20360ms",
-        "udp_supported": false
       }
     ],
     "vless_tls": [
-      {
-        "id": "9f4d7e74d837",
-        "protocol": "vless",
-        "address": "188.114.97.3",
-        "port": 443,
-        "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-        "remark": "soskeynet  VL-WS-N/A  US 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "support.zoom.us.yxls.eu.cc",
-        "fingerprint": "chrome",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/sg-melbi",
-        "host": "support.zoom.us.yxls.eu.cc",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@188.114.97.3:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi#soskeynet%20%20VL-WS-N/A%20%20US%202ms",
-        "udp_supported": true
-      },
       {
         "id": "025f1ef83ffc",
         "protocol": "vless",
@@ -191,6 +145,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@170.114.46.6:443?encryption=none&type=ws&security=tls&path=%2Fsg-melbi&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0#configfa%20%20VL-WS-N/A%20%20XX%202ms",
+        "udp_supported": true
+      },
+      {
+        "id": "9f4d7e74d837",
+        "protocol": "vless",
+        "address": "188.114.97.3",
+        "port": 443,
+        "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
+        "remark": "soskeynet  VL-WS-N/A  US 2ms",
+        "network": "ws",
+        "security": "tls",
+        "sni": "support.zoom.us.yxls.eu.cc",
+        "fingerprint": "chrome",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/sg-melbi",
+        "host": "support.zoom.us.yxls.eu.cc",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@188.114.97.3:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi#soskeynet%20%20VL-WS-N/A%20%20US%202ms",
         "udp_supported": true
       }
     ],
@@ -293,29 +270,6 @@
     ],
     "vless_tls": [
       {
-        "id": "9f4d7e74d837",
-        "protocol": "vless",
-        "address": "188.114.97.3",
-        "port": 443,
-        "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-        "remark": "soskeynet  VL-WS-N/A  US 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "support.zoom.us.yxls.eu.cc",
-        "fingerprint": "chrome",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/sg-melbi",
-        "host": "support.zoom.us.yxls.eu.cc",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@188.114.97.3:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi#soskeynet%20%20VL-WS-N/A%20%20US%202ms",
-        "udp_supported": true
-      },
-      {
         "id": "025f1ef83ffc",
         "protocol": "vless",
         "address": "194.156.26.1",
@@ -360,36 +314,35 @@
         "allowInsecure": "0",
         "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@170.114.46.6:443?encryption=none&type=ws&security=tls&path=%2Fsg-melbi&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0#configfa%20%20VL-WS-N/A%20%20XX%202ms",
         "udp_supported": true
+      },
+      {
+        "id": "9f4d7e74d837",
+        "protocol": "vless",
+        "address": "188.114.97.3",
+        "port": 443,
+        "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
+        "remark": "soskeynet  VL-WS-N/A  US 2ms",
+        "network": "ws",
+        "security": "tls",
+        "sni": "support.zoom.us.yxls.eu.cc",
+        "fingerprint": "chrome",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/sg-melbi",
+        "host": "support.zoom.us.yxls.eu.cc",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://4d10c997-4781-4cd9-82c3-15453523e12c@188.114.97.3:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi#soskeynet%20%20VL-WS-N/A%20%20US%202ms",
+        "udp_supported": true
       }
     ],
     "vless_other": []
   },
   "general": {
-    "reality": [
-      {
-        "id": "39c51dd6b988",
-        "protocol": "vless",
-        "address": "cdn.netraidly.ru",
-        "port": 40443,
-        "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-        "remark": "configfa  VL-TCP-  XX 360ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "deepl.com",
-        "fingerprint": "qq",
-        "publicKey": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-        "shortId": "c84f",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU&sid=c84f&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%20360ms",
-        "udp_supported": false
-      }
-    ],
+    "reality": [],
     "vless_tls": [],
     "vless_other": []
   }
