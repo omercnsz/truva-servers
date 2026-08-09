@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 5,
-    "gaming_count": 4,
+    "total_working": 4,
+    "gaming_count": 3,
     "general_count": 1,
-    "last_check": "2026-08-09 18:01:47.692959"
+    "last_check": "2026-08-09 18:52:09.882531"
   },
   "servers": {
     "reality": [
@@ -100,31 +100,7 @@
         "udp_supported": false
       }
     ],
-    "vless_tls": [
-      {
-        "id": "025f1ef83ffc",
-        "protocol": "vless",
-        "address": "194.156.26.1",
-        "port": 443,
-        "uuid": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
-        "remark": "soskeynet  VL-WS-N/A  DE 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
-        "fingerprint": "qq",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b5de9a4-3543-4f04-af6e-5c20141520ce@194.156.26.1:443?path=%2FeyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ%3D%3D&security=tls&encryption=none&insecure=0&fp=qq&type=ws&allowInsecure=0&sni=SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV#soskeynet%20%20VL-WS-N/A%20%20DE%202ms",
-        "udp_supported": true
-      }
-    ],
+    "vless_tls": [],
     "vless_other": []
   },
   "gaming": {
@@ -199,31 +175,7 @@
         "udp_supported": true
       }
     ],
-    "vless_tls": [
-      {
-        "id": "025f1ef83ffc",
-        "protocol": "vless",
-        "address": "194.156.26.1",
-        "port": 443,
-        "uuid": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
-        "remark": "soskeynet  VL-WS-N/A  DE 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
-        "fingerprint": "qq",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b5de9a4-3543-4f04-af6e-5c20141520ce@194.156.26.1:443?path=%2FeyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ%3D%3D&security=tls&encryption=none&insecure=0&fp=qq&type=ws&allowInsecure=0&sni=SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV#soskeynet%20%20VL-WS-N/A%20%20DE%202ms",
-        "udp_supported": true
-      }
-    ],
+    "vless_tls": [],
     "vless_other": []
   },
   "general": {
