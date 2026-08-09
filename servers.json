@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 3,
-    "gaming_count": 3,
+    "total_working": 2,
+    "gaming_count": 2,
     "general_count": 0,
-    "last_check": "2026-08-09 19:28:54.308081"
+    "last_check": "2026-08-09 20:24:43.114079"
   },
   "servers": {
     "reality": [
@@ -51,29 +51,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "udp_supported": true
-      },
-      {
-        "id": "174e41916333",
-        "protocol": "vless",
-        "address": "free.us2.laodavip.com",
-        "port": 443,
-        "uuid": "da54c327-4e3f-483c-9c48-705a6d739ab6",
-        "remark": "configfa  VL-TCP-  US 138ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "free.us2.laodavip.com",
-        "fingerprint": "chrome",
-        "publicKey": "fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA",
-        "shortId": "d4e718a6ea7cdb2d",
-        "spiderX": "/",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://da54c327-4e3f-483c-9c48-705a6d739ab6@free.us2.laodavip.com:443?encryption=none&type=tcp&security=reality&sni=free.us2.laodavip.com&fp=chrome&pbk=fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA&sid=d4e718a6ea7cdb2d&spx=%2F&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20US%20138ms",
         "udp_supported": true
       }
     ],
@@ -126,29 +103,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://711c018e-2692-4aa8-93f3-544d83fcd16c@jdwadgw.cvewfjg.shop:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&pbk=HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs&sid=7a76f3c4b9dd&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "udp_supported": true
-      },
-      {
-        "id": "174e41916333",
-        "protocol": "vless",
-        "address": "free.us2.laodavip.com",
-        "port": 443,
-        "uuid": "da54c327-4e3f-483c-9c48-705a6d739ab6",
-        "remark": "configfa  VL-TCP-  US 138ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "free.us2.laodavip.com",
-        "fingerprint": "chrome",
-        "publicKey": "fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA",
-        "shortId": "d4e718a6ea7cdb2d",
-        "spiderX": "/",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://da54c327-4e3f-483c-9c48-705a6d739ab6@free.us2.laodavip.com:443?encryption=none&type=tcp&security=reality&sni=free.us2.laodavip.com&fp=chrome&pbk=fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA&sid=d4e718a6ea7cdb2d&spx=%2F&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20US%20138ms",
         "udp_supported": true
       }
     ],
