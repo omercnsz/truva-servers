@@ -1,35 +1,12 @@
 {
   "metadata": {
-    "total_working": 4,
-    "gaming_count": 4,
+    "total_working": 3,
+    "gaming_count": 3,
     "general_count": 0,
-    "last_check": "2026-08-11 11:40:37.341499"
+    "last_check": "2026-08-11 12:48:24.049774"
   },
   "servers": {
     "reality": [
-      {
-        "id": "fcc7c08f96fe",
-        "protocol": "vless",
-        "address": "47.253.226.114",
-        "port": 443,
-        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-        "remark": "configfa  VL-TCP-  XX 3ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
-        "udp_supported": true
-      },
       {
         "id": "05f3b95ff915",
         "protocol": "vless",
@@ -106,29 +83,6 @@
   },
   "gaming": {
     "reality": [
-      {
-        "id": "fcc7c08f96fe",
-        "protocol": "vless",
-        "address": "47.253.226.114",
-        "port": 443,
-        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-        "remark": "configfa  VL-TCP-  XX 3ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
-        "udp_supported": true
-      },
       {
         "id": "05f3b95ff915",
         "protocol": "vless",
