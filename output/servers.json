@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 5,
+    "total_working": 4,
     "gaming_count": 4,
-    "general_count": 1,
-    "last_check": "2026-08-13 11:06:00.266674"
+    "general_count": 0,
+    "last_check": "2026-08-13 12:10:25.958221"
   },
   "servers": {
     "reality": [
@@ -75,29 +75,6 @@
         "allowInsecure": "0",
         "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
         "udp_supported": true
-      },
-      {
-        "id": "39c51dd6b988",
-        "protocol": "vless",
-        "address": "cdn.netraidly.ru",
-        "port": 40443,
-        "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-        "remark": "configfa  VL-TCP-  XX 360ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "deepl.com",
-        "fingerprint": "qq",
-        "publicKey": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-        "shortId": "c84f",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU&sid=c84f&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%20360ms",
-        "udp_supported": false
       }
     ],
     "vless_tls": [
@@ -227,31 +204,7 @@
     "vless_other": []
   },
   "general": {
-    "reality": [
-      {
-        "id": "39c51dd6b988",
-        "protocol": "vless",
-        "address": "cdn.netraidly.ru",
-        "port": 40443,
-        "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-        "remark": "configfa  VL-TCP-  XX 360ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "deepl.com",
-        "fingerprint": "qq",
-        "publicKey": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-        "shortId": "c84f",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "1",
-        "raw": "vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443?encryption=none&type=tcp&security=reality&headerType=none&sni=deepl.com&fp=qq&insecure=1&allowInsecure=1&pbk=D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU&sid=c84f&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%20360ms",
-        "udp_supported": false
-      }
-    ],
+    "reality": [],
     "vless_tls": [],
     "vless_other": []
   }
