@@ -3,7 +3,7 @@
     "total_working": 5,
     "gaming_count": 5,
     "general_count": 0,
-    "last_check": "2026-08-14 20:25:32.261942"
+    "last_check": "2026-08-14 21:20:22.680877"
   },
   "servers": {
     "reality": [
@@ -54,6 +54,29 @@
         "udp_supported": true
       },
       {
+        "id": "d56a11c120ce",
+        "protocol": "vless",
+        "address": "159.195.44.159",
+        "port": 443,
+        "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+        "remark": "configfa  VL-TCP-  XX 95ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "5.oncloudnineservicestreang.com",
+        "fingerprint": "chrome",
+        "publicKey": "RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM",
+        "shortId": "273940fba6ad8250",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
         "id": "39c51dd6b988",
         "protocol": "vless",
         "address": "cdn.netraidly.ru",
@@ -100,31 +123,7 @@
         "udp_supported": true
       }
     ],
-    "vless_tls": [
-      {
-        "id": "025f1ef83ffc",
-        "protocol": "vless",
-        "address": "194.156.26.1",
-        "port": 443,
-        "uuid": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
-        "remark": "soskeynet  VL-WS-N/A  DE 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
-        "fingerprint": "qq",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b5de9a4-3543-4f04-af6e-5c20141520ce@194.156.26.1:443?path=%2FeyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ%3D%3D&security=tls&encryption=none&insecure=0&fp=qq&type=ws&allowInsecure=0&sni=SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV#soskeynet%20%20VL-WS-N/A%20%20DE%202ms",
-        "udp_supported": true
-      }
-    ],
+    "vless_tls": [],
     "vless_other": []
   },
   "gaming": {
@@ -176,6 +175,29 @@
         "udp_supported": true
       },
       {
+        "id": "d56a11c120ce",
+        "protocol": "vless",
+        "address": "159.195.44.159",
+        "port": 443,
+        "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+        "remark": "configfa  VL-TCP-  XX 95ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "5.oncloudnineservicestreang.com",
+        "fingerprint": "chrome",
+        "publicKey": "RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM",
+        "shortId": "273940fba6ad8250",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
+        "udp_supported": true
+      },
+      {
         "id": "39c51dd6b988",
         "protocol": "vless",
         "address": "cdn.netraidly.ru",
@@ -222,31 +244,7 @@
         "udp_supported": true
       }
     ],
-    "vless_tls": [
-      {
-        "id": "025f1ef83ffc",
-        "protocol": "vless",
-        "address": "194.156.26.1",
-        "port": 443,
-        "uuid": "4b5de9a4-3543-4f04-af6e-5c20141520ce",
-        "remark": "soskeynet  VL-WS-N/A  DE 2ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV",
-        "fingerprint": "qq",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://4b5de9a4-3543-4f04-af6e-5c20141520ce@194.156.26.1:443?path=%2FeyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ%3D%3D&security=tls&encryption=none&insecure=0&fp=qq&type=ws&allowInsecure=0&sni=SumMeR-skY-0522.SFPOijsofw207geFS.WOrkeRS.deV#soskeynet%20%20VL-WS-N/A%20%20DE%202ms",
-        "udp_supported": true
-      }
-    ],
+    "vless_tls": [],
     "vless_other": []
   },
   "general": {
