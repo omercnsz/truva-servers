@@ -1,12 +1,35 @@
 {
   "metadata": {
-    "total_working": 3,
-    "gaming_count": 3,
+    "total_working": 4,
+    "gaming_count": 4,
     "general_count": 0,
-    "last_check": "2026-08-16 21:17:47.628386"
+    "last_check": "2026-08-16 21:45:33.391442"
   },
   "servers": {
     "reality": [
+      {
+        "id": "fcc7c08f96fe",
+        "protocol": "vless",
+        "address": "47.253.226.114",
+        "port": 443,
+        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+        "remark": "configfa  VL-TCP-  XX 3ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.cloudflare.com",
+        "fingerprint": "",
+        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
+        "udp_supported": true
+      },
       {
         "id": "05f3b95ff915",
         "protocol": "vless",
@@ -54,18 +77,18 @@
         "udp_supported": true
       },
       {
-        "id": "fcc7c08f96fe",
+        "id": "d56a11c120ce",
         "protocol": "vless",
-        "address": "47.253.226.114",
+        "address": "159.195.44.159",
         "port": 443,
-        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-        "remark": "configfa  VL-TCP-  XX 3ms",
+        "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+        "remark": "configfa  VL-TCP-  XX 95ms",
         "network": "tcp",
         "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-        "shortId": "",
+        "sni": "5.oncloudnineservicestreang.com",
+        "fingerprint": "chrome",
+        "publicKey": "RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM",
+        "shortId": "273940fba6ad8250",
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
@@ -73,7 +96,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
+        "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
         "udp_supported": true
       }
     ],
@@ -83,6 +106,29 @@
   "gaming": {
     "reality": [
       {
+        "id": "fcc7c08f96fe",
+        "protocol": "vless",
+        "address": "47.253.226.114",
+        "port": 443,
+        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+        "remark": "configfa  VL-TCP-  XX 3ms",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "www.cloudflare.com",
+        "fingerprint": "",
+        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
+        "udp_supported": true
+      },
+      {
         "id": "05f3b95ff915",
         "protocol": "vless",
         "address": "144.124.246.55",
@@ -129,18 +175,18 @@
         "udp_supported": true
       },
       {
-        "id": "fcc7c08f96fe",
+        "id": "d56a11c120ce",
         "protocol": "vless",
-        "address": "47.253.226.114",
+        "address": "159.195.44.159",
         "port": 443,
-        "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-        "remark": "configfa  VL-TCP-  XX 3ms",
+        "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+        "remark": "configfa  VL-TCP-  XX 95ms",
         "network": "tcp",
         "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "",
-        "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-        "shortId": "",
+        "sni": "5.oncloudnineservicestreang.com",
+        "fingerprint": "chrome",
+        "publicKey": "RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM",
+        "shortId": "273940fba6ad8250",
         "spiderX": "",
         "flow": "xtls-rprx-vision",
         "path": "",
@@ -148,7 +194,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.cloudflare.com&insecure=0&allowInsecure=0&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%203ms",
+        "raw": "vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?encryption=none&type=tcp&security=reality&headerType=none&sni=5.oncloudnineservicestreang.com&fp=chrome&insecure=0&allowInsecure=0&pbk=RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM&sid=273940fba6ad8250&flow=xtls-rprx-vision#configfa%20%20VL-TCP-%20%20XX%2095ms",
         "udp_supported": true
       }
     ],
