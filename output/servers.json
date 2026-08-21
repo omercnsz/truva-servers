@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 21,
-    "gaming_count": 18,
-    "general_count": 3,
-    "last_check": "2026-08-21 19:10:04.007406"
+    "total_working": 22,
+    "gaming_count": 20,
+    "general_count": 2,
+    "last_check": "2026-08-21 19:49:26.545819"
   },
   "servers": {
     "reality": [
@@ -77,16 +77,16 @@
         "udp_supported": true
       },
       {
-        "id": "bd8472c4879b",
+        "id": "3028618bf8c3",
         "protocol": "vless",
-        "address": "169.40.42.173",
+        "address": "169.40.42.15",
         "port": 443,
         "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "🇩🇪telegram➠@v2rayNG_Matsuri",
+        "remark": "اگه میخوای قطع نشی جوین شو : @farsiproxy",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
-        "fingerprint": "ios",
+        "fingerprint": "firefox",
         "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
         "shortId": "c39cc7310a",
         "spiderX": "",
@@ -96,7 +96,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.15:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy",
         "udp_supported": true
       },
       {
@@ -169,6 +169,29 @@
         "udp_supported": true
       },
       {
+        "id": "bd8472c4879b",
+        "protocol": "vless",
+        "address": "169.40.42.173",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "🇩🇪telegram➠@v2rayNG_Matsuri",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "ios",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "udp_supported": true
+      },
+      {
         "id": "ba7540fb1e13",
         "protocol": "vless",
         "address": "51.158.206.80",
@@ -189,29 +212,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
-        "udp_supported": true
-      },
-      {
-        "id": "3028618bf8c3",
-        "protocol": "vless",
-        "address": "169.40.42.15",
-        "port": 443,
-        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "اگه میخوای قطع نشی جوین شو : @farsiproxy",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "firefox",
-        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-        "shortId": "c39cc7310a",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.15:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy",
         "udp_supported": true
       },
       {
@@ -258,6 +258,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.184:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#Server%203",
+        "udp_supported": true
+      },
+      {
+        "id": "b9f5afef8830",
+        "protocol": "vless",
+        "address": "169.40.42.212",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "@v2raybaaz ⁵",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.212:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%40v2raybaaz%20%E2%81%B5",
         "udp_supported": true
       },
       {
@@ -398,7 +421,7 @@
         "alpn": "http/1.1",
         "allowInsecure": "0",
         "raw": "vless://03707fb7-0990-440f-88f6-b0e0f7242a38@ytryurdj64bbb.localip.ir:443?security=tls&fp=chrome&alpn=http%2F1.1&sni=ro-3.ariyuz.org&type=ws&headerType=none&host=ro-3.ariyuz.org&path=%2F#ar14n24b%20%20VL-WS-N/A%20%20XX%20502ms",
-        "udp_supported": false
+        "udp_supported": true
       },
       {
         "id": "9ca756757a9f",
@@ -568,16 +591,16 @@
         "udp_supported": true
       },
       {
-        "id": "bd8472c4879b",
+        "id": "3028618bf8c3",
         "protocol": "vless",
-        "address": "169.40.42.173",
+        "address": "169.40.42.15",
         "port": 443,
         "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "🇩🇪telegram➠@v2rayNG_Matsuri",
+        "remark": "اگه میخوای قطع نشی جوین شو : @farsiproxy",
         "network": "tcp",
         "security": "reality",
         "sni": "yahoo.com",
-        "fingerprint": "ios",
+        "fingerprint": "firefox",
         "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
         "shortId": "c39cc7310a",
         "spiderX": "",
@@ -587,7 +610,7 @@
         "serviceName": "",
         "alpn": "",
         "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.15:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy",
         "udp_supported": true
       },
       {
@@ -660,6 +683,29 @@
         "udp_supported": true
       },
       {
+        "id": "bd8472c4879b",
+        "protocol": "vless",
+        "address": "169.40.42.173",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "🇩🇪telegram➠@v2rayNG_Matsuri",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "ios",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "udp_supported": true
+      },
+      {
         "id": "ba7540fb1e13",
         "protocol": "vless",
         "address": "51.158.206.80",
@@ -680,29 +726,6 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
-        "udp_supported": true
-      },
-      {
-        "id": "3028618bf8c3",
-        "protocol": "vless",
-        "address": "169.40.42.15",
-        "port": 443,
-        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "اگه میخوای قطع نشی جوین شو : @farsiproxy",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "firefox",
-        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-        "shortId": "c39cc7310a",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.15:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy",
         "udp_supported": true
       },
       {
@@ -749,6 +772,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.184:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#Server%203",
+        "udp_supported": true
+      },
+      {
+        "id": "b9f5afef8830",
+        "protocol": "vless",
+        "address": "169.40.42.212",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "@v2raybaaz ⁵",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.212:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%40v2raybaaz%20%E2%81%B5",
         "udp_supported": true
       }
     ],
@@ -843,6 +889,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://03707fb7-0990-440f-88f6-b0e0f7242a38@45.8.211.57:443?security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=de-new-1.ariyuz.org#ar14n24b%20%20VL-WS-N/A%20%20XX%207ms",
+        "udp_supported": true
+      },
+      {
+        "id": "800f415696e6",
+        "protocol": "vless",
+        "address": "ytryurdj64bbb.localip.ir",
+        "port": 443,
+        "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+        "remark": "ar14n24b  VL-WS-N/A  XX 502ms",
+        "network": "ws",
+        "security": "tls",
+        "sni": "ro-3.ariyuz.org",
+        "fingerprint": "chrome",
+        "publicKey": "",
+        "shortId": "",
+        "spiderX": "",
+        "flow": "",
+        "path": "/",
+        "host": "ro-3.ariyuz.org",
+        "serviceName": "",
+        "alpn": "http/1.1",
+        "allowInsecure": "0",
+        "raw": "vless://03707fb7-0990-440f-88f6-b0e0f7242a38@ytryurdj64bbb.localip.ir:443?security=tls&fp=chrome&alpn=http%2F1.1&sni=ro-3.ariyuz.org&type=ws&headerType=none&host=ro-3.ariyuz.org&path=%2F#ar14n24b%20%20VL-WS-N/A%20%20XX%20502ms",
         "udp_supported": true
       }
     ],
@@ -945,29 +1014,6 @@
       }
     ],
     "vless_tls": [
-      {
-        "id": "800f415696e6",
-        "protocol": "vless",
-        "address": "ytryurdj64bbb.localip.ir",
-        "port": 443,
-        "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
-        "remark": "ar14n24b  VL-WS-N/A  XX 502ms",
-        "network": "ws",
-        "security": "tls",
-        "sni": "ro-3.ariyuz.org",
-        "fingerprint": "chrome",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/",
-        "host": "ro-3.ariyuz.org",
-        "serviceName": "",
-        "alpn": "http/1.1",
-        "allowInsecure": "0",
-        "raw": "vless://03707fb7-0990-440f-88f6-b0e0f7242a38@ytryurdj64bbb.localip.ir:443?security=tls&fp=chrome&alpn=http%2F1.1&sni=ro-3.ariyuz.org&type=ws&headerType=none&host=ro-3.ariyuz.org&path=%2F#ar14n24b%20%20VL-WS-N/A%20%20XX%20502ms",
-        "udp_supported": false
-      },
       {
         "id": "9ca756757a9f",
         "protocol": "vless",
