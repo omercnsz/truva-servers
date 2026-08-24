@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_working": 18,
-    "gaming_count": 16,
-    "general_count": 2,
-    "last_check": "2026-08-24 11:25:15.491207"
+    "gaming_count": 17,
+    "general_count": 1,
+    "last_check": "2026-08-24 11:55:09.295656"
   },
   "servers": {
     "reality": [
@@ -100,29 +100,6 @@
         "udp_supported": true
       },
       {
-        "id": "ba7540fb1e13",
-        "protocol": "vless",
-        "address": "51.158.206.80",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
-        "udp_supported": true
-      },
-      {
         "id": "d4e63ca6dc51",
         "protocol": "vless",
         "address": "51.158.206.93",
@@ -192,6 +169,29 @@
         "udp_supported": true
       },
       {
+        "id": "ba7540fb1e13",
+        "protocol": "vless",
+        "address": "51.158.206.80",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
+        "udp_supported": true
+      },
+      {
         "id": "c5da004bb4cb",
         "protocol": "vless",
         "address": "31.76.4.103",
@@ -235,6 +235,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "udp_supported": true
+      },
+      {
+        "id": "e90c1ad97208",
+        "protocol": "vless",
+        "address": "169.40.42.179",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "🇬🇧telegram➠@v2rayNG_Matsuri",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "ios",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%AC%F0%9F%87%A7telegram%E2%9E%A0%40v2rayNG_Matsuri",
         "udp_supported": true
       },
       {
@@ -282,29 +305,6 @@
         "allowInsecure": "0",
         "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.212:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%40v2raybaaz%20%E2%81%B5",
         "udp_supported": true
-      },
-      {
-        "id": "e90c1ad97208",
-        "protocol": "vless",
-        "address": "169.40.42.179",
-        "port": 443,
-        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "🇬🇧telegram➠@v2rayNG_Matsuri",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "ios",
-        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-        "shortId": "c39cc7310a",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%AC%F0%9F%87%A7telegram%E2%9E%A0%40v2rayNG_Matsuri",
-        "udp_supported": false
       }
     ],
     "vless_tls": [
@@ -522,29 +522,6 @@
         "udp_supported": true
       },
       {
-        "id": "ba7540fb1e13",
-        "protocol": "vless",
-        "address": "51.158.206.80",
-        "port": 23576,
-        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-        "remark": "",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "fuck.rkn",
-        "fingerprint": "",
-        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-        "shortId": "01",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
-        "udp_supported": true
-      },
-      {
         "id": "d4e63ca6dc51",
         "protocol": "vless",
         "address": "51.158.206.93",
@@ -614,6 +591,29 @@
         "udp_supported": true
       },
       {
+        "id": "ba7540fb1e13",
+        "protocol": "vless",
+        "address": "51.158.206.80",
+        "port": 23576,
+        "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+        "remark": "",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "fuck.rkn",
+        "fingerprint": "",
+        "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "shortId": "01",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#",
+        "udp_supported": true
+      },
+      {
         "id": "c5da004bb4cb",
         "protocol": "vless",
         "address": "31.76.4.103",
@@ -657,6 +657,29 @@
         "alpn": "",
         "allowInsecure": "0",
         "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%A9%F0%9F%87%AAtelegram%E2%9E%A0%40v2rayNG_Matsuri",
+        "udp_supported": true
+      },
+      {
+        "id": "e90c1ad97208",
+        "protocol": "vless",
+        "address": "169.40.42.179",
+        "port": 443,
+        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "remark": "🇬🇧telegram➠@v2rayNG_Matsuri",
+        "network": "tcp",
+        "security": "reality",
+        "sni": "yahoo.com",
+        "fingerprint": "ios",
+        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+        "shortId": "c39cc7310a",
+        "spiderX": "",
+        "flow": "xtls-rprx-vision",
+        "path": "",
+        "host": "",
+        "serviceName": "",
+        "alpn": "",
+        "allowInsecure": "0",
+        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%AC%F0%9F%87%A7telegram%E2%9E%A0%40v2rayNG_Matsuri",
         "udp_supported": true
       },
       {
@@ -804,31 +827,7 @@
     ]
   },
   "general": {
-    "reality": [
-      {
-        "id": "e90c1ad97208",
-        "protocol": "vless",
-        "address": "169.40.42.179",
-        "port": 443,
-        "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "remark": "🇬🇧telegram➠@v2rayNG_Matsuri",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "yahoo.com",
-        "fingerprint": "ios",
-        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-        "shortId": "c39cc7310a",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.179:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#%F0%9F%87%AC%F0%9F%87%A7telegram%E2%9E%A0%40v2rayNG_Matsuri",
-        "udp_supported": false
-      }
-    ],
+    "reality": [],
     "vless_tls": [
       {
         "id": "9ca756757a9f",
