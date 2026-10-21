@@ -1,35 +1,12 @@
 {
   "metadata": {
-    "total_working": 4,
-    "gaming_count": 4,
+    "total_working": 3,
+    "gaming_count": 3,
     "general_count": 0,
-    "last_check": "2026-10-20 21:07:01.277246"
+    "last_check": "2026-10-21 00:19:31.374126"
   },
   "servers": {
     "reality": [
-      {
-        "id": "b1af7ae13d34",
-        "protocol": "vless",
-        "address": "137.184.218.169",
-        "port": 36925,
-        "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-        "remark": "surfboardv2ray  VL-TCP-  XX 8ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&type=tcp&headerType=none#surfboardv2ray%20%20VL-TCP-%20%20XX%208ms",
-        "udp_supported": true
-      },
       {
         "id": "ba7540fb1e13",
         "protocol": "vless",
@@ -106,29 +83,6 @@
   },
   "gaming": {
     "reality": [
-      {
-        "id": "b1af7ae13d34",
-        "protocol": "vless",
-        "address": "137.184.218.169",
-        "port": 36925,
-        "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-        "remark": "surfboardv2ray  VL-TCP-  XX 8ms",
-        "network": "tcp",
-        "security": "reality",
-        "sni": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "xtls-rprx-vision",
-        "path": "",
-        "host": "",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&type=tcp&headerType=none#surfboardv2ray%20%20VL-TCP-%20%20XX%208ms",
-        "udp_supported": true
-      },
       {
         "id": "ba7540fb1e13",
         "protocol": "vless",
