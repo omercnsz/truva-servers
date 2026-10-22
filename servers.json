@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_working": 3,
-    "gaming_count": 3,
+    "total_working": 2,
+    "gaming_count": 2,
     "general_count": 0,
-    "last_check": "2026-10-22 12:43:38.450947"
+    "last_check": "2026-10-22 17:48:34.290556"
   },
   "servers": {
     "reality": [
@@ -55,31 +55,7 @@
       }
     ],
     "vless_tls": [],
-    "vless_other": [
-      {
-        "id": "0090fbd1cff7",
-        "protocol": "vless",
-        "address": "69.48.201.136",
-        "port": 30016,
-        "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "remark": "surfboardv2ray  VL-WS-N/A  XX 29ms",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/usserver",
-        "host": "uspanel.unixzone.us",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a@69.48.201.136:30016?encryption=none&security=none&type=ws&host=uspanel.unixzone.us&path=%2Fusserver#surfboardv2ray%20%20VL-WS-N/A%20%20XX%2029ms",
-        "udp_supported": true
-      }
-    ]
+    "vless_other": []
   },
   "gaming": {
     "reality": [
@@ -131,31 +107,7 @@
       }
     ],
     "vless_tls": [],
-    "vless_other": [
-      {
-        "id": "0090fbd1cff7",
-        "protocol": "vless",
-        "address": "69.48.201.136",
-        "port": 30016,
-        "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "remark": "surfboardv2ray  VL-WS-N/A  XX 29ms",
-        "network": "ws",
-        "security": "none",
-        "sni": "",
-        "fingerprint": "",
-        "publicKey": "",
-        "shortId": "",
-        "spiderX": "",
-        "flow": "",
-        "path": "/usserver",
-        "host": "uspanel.unixzone.us",
-        "serviceName": "",
-        "alpn": "",
-        "allowInsecure": "0",
-        "raw": "vless://03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a@69.48.201.136:30016?encryption=none&security=none&type=ws&host=uspanel.unixzone.us&path=%2Fusserver#surfboardv2ray%20%20VL-WS-N/A%20%20XX%2029ms",
-        "udp_supported": true
-      }
-    ]
+    "vless_other": []
   },
   "general": {
     "reality": [],
